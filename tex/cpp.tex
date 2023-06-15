@@ -89,19 +89,22 @@ ShuwenHe\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{for循环}
 \section{}
-高斯求和公式求和1+2+3+...+100
+// 高斯求和公式求和1+2+3+...+100
 \begin{lstlisting}[language=C++]
-int gauss() {
+#include <iostream>
+using namespace std;
+int main() {
     int sum = 0;
     sum = (1+100)*100/2;
-    std::cout << "gauss sum=" << sum << std::endl;
+    cout << "gauss sum=" << sum << endl;
     return 0;
 }
 \end{lstlisting}
 
 \section{}
-for循环求和1+2+3+...+100
-\begin{lstlisting}[language=C++, caption=for循环求和1+2+3+...+100]
+for循环求和1+2+3+...+100\\
+// for循环求和1+2+3+...+100
+\begin{lstlisting}[language=C++]
 int forSum(){
     int sum = 0;
     for (int i = 1; i <= 100; i++) {
