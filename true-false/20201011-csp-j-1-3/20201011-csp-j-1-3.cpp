@@ -2,10 +2,7 @@
 
 using namespace std;
 int main() {
-    int sum = 0;
-    for (int i = 1; i <= 100; i++) {
-        sum += i;
-    }
-    std::cout << "sum=" << sum << std::endl;
-    return 0;
+	bool x = true,y = true,z = false;
+	cout<<"(x^y)^z="<<(x^y)^z<<endl;
+	return 0;
 }
