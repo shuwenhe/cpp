@@ -18,6 +18,7 @@
 \usepackage[pdftex]{graphicx}
 \usepackage{epstopdf}
 \usepackage{cite}
+\usepackage{listings}
 
 \usepackage[numbers,sort&compress]{natbib}
 
@@ -86,18 +87,19 @@ ShuwenHe\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{sum}
+\chapter{for循环}
 \section{gauss}
-// gauss 
+\begin{lstlisting}[language=C++, caption=高斯求和公式求和1+2+3+...+100]
 int gauss() {
     int sum = 0;
     sum = (1+100)*100/2;
     std::cout << "gauss sum=" << sum << std::endl;
     return 0;
 }
+\end{lstlisting}
 
 \section{forSum}
-// forSum
+\begin{lstlisting}[language=C++, caption=for循环求和1+2+3+...+100]
 int forSum(){
     int sum = 0;
     for (int i = 1; i <= 100; i++) {
@@ -106,6 +108,7 @@ int forSum(){
     cout << "for sum=" << sum << endl;
     return 0;
 }
+\end{lstlisting}
 
 \clearpage
 \end{document}
