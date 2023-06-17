@@ -5,3 +5,4 @@
 \contentsline {chapter}{\numberline {第二章\hspace {.3em}}for循环}{5}{chapter.0.2}%
 \contentsline {section}{\numberline {1}}{5}{section.0.2.1}%
 \contentsline {section}{\numberline {2}}{5}{section.0.2.2}%
+\contentsline {section}{\numberline {3}X34珠心算测验}{6}{section.0.2.3}%
