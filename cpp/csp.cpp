@@ -55,7 +55,7 @@ int floatType(){
 	cout<<"pi ="<<pi<<endl;
 	return 0;
 }
-int doubleType()       
+
 int main() {
 	floatType();
 }
@@ -86,3 +86,5 @@ int main() {
 // 归并排序
 
 // 分治算法
+
+// 2022CSP-S-1 假期计划（holiday）
