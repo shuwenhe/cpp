@@ -20,6 +20,11 @@ int forSum(){
     return 0;
 }
 
+// sort 排序
+// 插入排序
+// 冒泡排序
+// 堆排序
+// 归并排序
 
 int main() {
     forSum();
