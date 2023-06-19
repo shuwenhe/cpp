@@ -184,7 +184,33 @@ int arithmeticOperator(){
 	return 0;
 }
 
+// 关系运算符
+int relationalOperator(){
+	int a = 5;
+	int b = 3;
+	cout<<"a = "<<a<<endl;
+	cout<<"b = "<<b<<endl;
+	int c;
+	if (a == b){
+		cout<<"a 等于 b"<<endl;
+	}else{
+		cout<<"a 不等于 b"<<endl;
+	}
+	if(a < b){
+		cout<<"a 小于 b"<<endl;
+	}else{
+		cout<<"a 不小于 b"<<endl;
+	}
+	if(a > b){
+		cout<<"a 大于 b"<<endl;
+	}else{
+		cout<<"a 不大于 b"<<endl;
+	}
+	return 0;
+}
+
+
 int main() {
-	arithmeticOperator();
+	relationalOperator();
 }
 

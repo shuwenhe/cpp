@@ -313,6 +313,35 @@ int arithmeticOperator(){
 }
 \end{lstlisting}
 
+\section{关系运算符}
+\begin{lstlisting}[language=C++]
+// 关系运算符
+int relationalOperator(){
+	int a = 5;
+	int b = 3;
+	cout<<"a = "<<a<<endl;
+	cout<<"b = "<<b<<endl;
+	int c;
+	if (a == b){
+		cout<<"a 等于 b"<<endl;
+	}else{
+		cout<<"a 不等于 b"<<endl;
+	}
+	if(a < b){
+		cout<<"a 小于 b"<<endl;
+	}else{
+		cout<<"a 不小于 b"<<endl;
+	}
+	if(a > b){
+		cout<<"a 大于 b"<<endl;
+	}else{
+		cout<<"a 不大于 b"<<endl;
+	}
+	return 0;
+}
+\end{lstlisting}
+
+
 \chapter{控制语句}
 \section{for循环}
 // 高斯求和公式求和1+2+3+...+100
