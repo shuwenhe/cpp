@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.1 (MiKTeX 23.4) (format=lualatex 2023.6.13)  19 JUN 2023 11:54
+This is LuaHBTeX, Version 1.16.1 (MiKTeX 23.4) (format=lualatex 2023.6.13)  19 JUN 2023 13:58
  restricted system commands enabled.
 **cpp.tex
 (./cpp.tex
@@ -1137,19 +1137,19 @@ Package hyperref Info: Link coloring ON on input line 64.
 \openout4 = cpp.out
 (load cache: extra_lmroman17-regular.luc)(load cache: extra_lmroman7-regular.luc
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 78.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 79.
 
 
 (C:/CTEX/MiKTeX/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 78.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 79.
 
 
 (C:/CTEX/MiKTeX/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 78
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 79
 .
 
 (C:/CTEX/MiKTeX/tex/latex/wasysym/uwasy.fd
@@ -1161,7 +1161,7 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 LaTeX Font Info:    Font shape `LTJY3/SimSun(0)/bx/n' in size <24.88> not avail
 able
 (Font)              Font shape `LTJY3/SimSun(0)/b/n' tried instead on input lin
-e 78.
+e 79.
  (./cpp.toc)
 \tf@toc=\write5
 
@@ -1173,18 +1173,18 @@ e 78.
 LaTeX Font Info:    Font shape `LTJY3/SimSun(0)/bx/n' in size <17.28> not avail
 able
 (Font)              Font shape `LTJY3/SimSun(0)/b/n' tried instead on input lin
-e 90.
+e 91.
 LaTeX Font Info:    Font shape `LTJY3/SimSun(0)/bx/n' in size <14.4> not availa
 ble
 (Font)              Font shape `LTJY3/SimSun(0)/b/n' tried instead on input lin
-e 91.
+e 92.
 [3
 
 ]
 <shuwenedu.png, id=76, 100.87688pt x 26.34843pt>
 File: shuwenedu.png Graphic file (type png)
 <use shuwenedu.png>
-Package luatex.def Info: shuwenedu.png  used on input line 129.
+Package luatex.def Info: shuwenedu.png  used on input line 127.
 (luatex.def)             Requested size: 100.87662pt x 26.34836pt.
 
 
@@ -1198,7 +1198,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <pku.png, id=77, 24.09pt x 24.09pt>
 File: pku.png Graphic file (type png)
 <use pku.png>
-Package luatex.def Info: pku.png  used on input line 129.
+Package luatex.def Info: pku.png  used on input line 127.
 (luatex.def)             Requested size: 24.08992pt x 24.08992pt.
 [4<./shuwenedu.png><./pku.png>]
 第二章
@@ -1223,194 +1223,23 @@ Removing  `ltj.listings_unicode' from `process_input_buffer'. [5
 ]
 第四章
 (load cache: extra_lmroman8-regular.luc)(load cache: extra_lmroman6-regular.luc)
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' in `process_input_buffer'. [7
+[7
 
 ]
-Overfull \hbox (34.7084pt too wide) in paragraph at lines 198--199
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (34.7084pt too wide) in paragraph at lines 201--202
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (34.7084pt too wide) in paragraph at lines 204--205
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (56.30862pt too wide) in paragraph at lines 205--206
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (13.10818pt too wide) in paragraph at lines 206--207
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (85.10892pt too wide) in paragraph at lines 207--208
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (85.10892pt too wide) in paragraph at lines 208--209
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (27.50833pt too wide) in paragraph at lines 209--210
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (99.50906pt too wide) in paragraph at lines 210--211
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (56.30862pt too wide) in paragraph at lines 213--214
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (41.90848pt too wide) in paragraph at lines 216--217
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (13.10818pt too wide) in paragraph at lines 219--220
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (13.10818pt too wide) in paragraph at lines 220--221
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (49.10855pt too wide) in paragraph at lines 222--223
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (20.30826pt too wide) in paragraph at lines 225--226
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (85.10892pt too wide) in paragraph at lines 226--227
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (27.50833pt too wide) in paragraph at lines 227--228
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (85.10892pt too wide) in paragraph at lines 228--229
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-File: shuwenedu.png Graphic file (type png)
-<use shuwenedu.png>
-Package luatex.def Info: shuwenedu.png  used on input line 231.
-(luatex.def)             Requested size: 100.87662pt x 26.34836pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6984pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6984pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6984pt}.
-
-File: pku.png Graphic file (type png)
-<use pku.png>
-Package luatex.def Info: pku.png  used on input line 231.
-(luatex.def)             Requested size: 24.08992pt x 24.08992pt.
-[8]
-Overfull \hbox (34.7084pt too wide) in paragraph at lines 231--232
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (56.30862pt too wide) in paragraph at lines 232--233
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (13.10818pt too wide) in paragraph at lines 233--234
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (70.70877pt too wide) in paragraph at lines 234--235
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (27.50833pt too wide) in paragraph at lines 237--238
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (34.7084pt too wide) in paragraph at lines 240--241
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (41.90848pt too wide) in paragraph at lines 241--242
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (387.512pt too wide) in paragraph at lines 242--243
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][] 
- []
-
-
-Overfull \hbox (34.7084pt too wide) in paragraph at lines 243--244
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-Removing  `ltj.listings_unicode' from `process_input_buffer'.
-File: shuwenedu.png Graphic file (type png)
-<use shuwenedu.png>
-Package luatex.def Info: shuwenedu.png  used on input line 250.
-(luatex.def)             Requested size: 100.87662pt x 26.34836pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6984pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6984pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6984pt}.
-
-File: pku.png Graphic file (type png)
-<use pku.png>
-Package luatex.def Info: pku.png  used on input line 250.
-(luatex.def)             Requested size: 24.08992pt x 24.08992pt.
-[9]
 第五章
-[10
+[8
 
 ]
 第六章
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'. [11
+Removing  `ltj.listings_unicode' from `process_input_buffer'. [9
 
 ]
 File: shuwenedu.png Graphic file (type png)
 <use shuwenedu.png>
-Package luatex.def Info: shuwenedu.png  used on input line 276.
+Package luatex.def Info: shuwenedu.png  used on input line 218.
 (luatex.def)             Requested size: 100.87662pt x 26.34836pt.
 
 
@@ -1423,9 +1252,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type png)
 <use pku.png>
-Package luatex.def Info: pku.png  used on input line 276.
+Package luatex.def Info: pku.png  used on input line 218.
 (luatex.def)             Requested size: 24.08992pt x 24.08992pt.
-[12]
+[10]
 第七章
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
@@ -1434,7 +1263,7 @@ Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'. [13
+Removing  `ltj.listings_unicode' from `process_input_buffer'. [11
 
 ]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
@@ -1442,7 +1271,7 @@ Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
 File: shuwenedu.png Graphic file (type png)
 <use shuwenedu.png>
-Package luatex.def Info: shuwenedu.png  used on input line 338.
+Package luatex.def Info: shuwenedu.png  used on input line 280.
 (luatex.def)             Requested size: 100.87662pt x 26.34836pt.
 
 
@@ -1455,16 +1284,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type png)
 <use pku.png>
-Package luatex.def Info: pku.png  used on input line 338.
+Package luatex.def Info: pku.png  used on input line 280.
 (luatex.def)             Requested size: 24.08992pt x 24.08992pt.
-[14
+[12
 Missing character: There is no ≤ (U+2264) in font [lmroman12-regular]:+tlig;!
 Missing character: There is no ≤ (U+2264) in font [lmroman12-regular]:+tlig;!
 ]
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
 File: shuwenedu.png Graphic file (type png)
 <use shuwenedu.png>
-Package luatex.def Info: shuwenedu.png  used on input line 370.
+Package luatex.def Info: shuwenedu.png  used on input line 312.
 (luatex.def)             Requested size: 100.87662pt x 26.34836pt.
 
 
@@ -1477,39 +1306,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type png)
 <use pku.png>
-Package luatex.def Info: pku.png  used on input line 370.
+Package luatex.def Info: pku.png  used on input line 312.
 (luatex.def)             Requested size: 24.08992pt x 24.08992pt.
-[15]
+[13]
 第八章
-[16
+[14
 
 ]
 第九章
-[17
+[15
 
 ]
 第十章
-[18
+[16
 
 ] (./cpp.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `cpp.out' has not changed.
-(rerunfilecheck)             Checksum: E63731F82BE4EE74466E366228FCA606;1222.
+(rerunfilecheck)             Checksum: 90D111B20BE95800171B0F60AF5EEE9D;1115.
 )
 
 Here is how much of LuaTeX's memory you used:
- 21581 strings out of 478278
- 745695,1977958 words of node,token memory allocated
+ 21476 strings out of 478278
+ 195474,1977958 words of node,token memory allocated
  910 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 142 attribute, 66 glue_spe
 c, 22 attribute_list, 2 write, 10 user_defined nodes
-   avail lists: 1:13,2:168386,3:780,4:13197,5:1205,6:88,7:10700,8:9,9:14048,10:1
-2,11:15,12:1
- 40638 multiletter control sequences out of 65536+600000
+   avail lists: 1:8,2:51871,3:308,4:3434,5:546,6:74,7:3574,8:10,9:3974,10:16,11:
+15,12:1
+ 40608 multiletter control sequences out of 65536+600000
  110 fonts using 145353175 bytes
- 88i,16n,111p,1200b,981s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,16n,111p,1200b,973s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Windows/Fonts/simkai.ttf><//?/c:/ctex/miktex/fonts/opentype/public/lm/lmroma
 n12-italic.otf><//?/c:/ctex/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><
 C:/Windows/Fonts/simhei.ttf><//?/c:/ctex/miktex/fonts/opentype/public/lm/lmroman
@@ -1518,9 +1347,9 @@ ublic/lm/lmroman17-regular.otf><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 mi12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/CTEX/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmtt12.pfb>
-Output written on cpp.pdf (18 pages, 204610 bytes).
+Output written on cpp.pdf (16 pages, 190903 bytes).
 
-PDF statistics: 350 PDF objects out of 1000 (max. 8388607)
- 171 named destinations out of 1000 (max. 131072)
+PDF statistics: 283 PDF objects out of 1000 (max. 8388607)
+ 112 named destinations out of 1000 (max. 131072)
  81 words of extra memory for PDF output out of 10000 (max. 100000000)
 

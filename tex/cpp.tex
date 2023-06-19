@@ -69,7 +69,8 @@
 Peking University\\
 北京大学\\
 ShuwenHe\\
-何书文
+何书文\\
+1201220707@pku.edu.cn
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -80,7 +81,7 @@ ShuwenHe\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \lhead{\includegraphics{shuwenedu.png}}
-\rhead{科技特长生升学规划}
+\rhead{科技特长生升学规划 何校长 电话微信15010729356}
 \lfoot{\includegraphics{pku.png}算法第一人北大何书文}
 \rfoot{改变您家孩子命运的老师}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -88,12 +89,9 @@ ShuwenHe\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{环境搭建}
 \section{linux命令}
-\subsection{linux文件文件夹命令}
-创建文件夹\\
-mkdir cpp创建文件夹\\
-mkdir cpp\\
-进入文件夹\\
-cd cpp\\
+\subsection{文件命令}
+mkdir cpp 创建文件夹\\
+cd cpp 进入文件夹\\
 vi richard.cpp\\
 i进入insert模式\\
 o进入下一行\\
@@ -126,8 +124,8 @@ file生成指定的输出文件,用在生成可执行文件时。\\
 C++ 中的分号\&语句块\\
 编辑编译执行C++程序
 
-\chapter{C++基本语法}
-\section{}
+\chapter{基本语法}
+\section{代码介绍}
 \begin{lstlisting}[language=C++]
 #include <iostream>
 using namespace std;
@@ -143,17 +141,17 @@ cout<<"Hello World"; 会在屏幕上显示消息 "Hello World"。\\
 下一行 return 0; 终止 main( )函数，并向调用进程返回值 0。\\
 在 C++ 中，分号是语句结束符。也就是说，每个语句必须以分号结束。它表明一个逻辑实体的结束。
 
-\section{C++ 标识符}
+\section{标识符}
 
-\section{C++ 关键字}
+\section{关键字}
 
-\chapter{C++ 注释}
-\section{}
+\chapter{注释}
+\section{单行多行注释}
 C++ 支持单行注释和多行注释。注释中的所有字符会被 C++ 编译器忽略。\\
 // - 一般用于单行注释。\\
 /* ... */ - 一般用于多行注释。
 
-\chapter{C++ 数据类型}
+\chapter{数据类型}
 使用编程语言进行编程时，需要用到各种变量来存储各种信息。变量保留的是它所存储的值的内存位置。这意味着，当您创建一个变量时，就会在内存中保留一些空间。\\
 您可能需要存储各种数据类型（比如字符型、宽字符型、整型、浮点型、双浮点型、布尔型等）的信息，操作系统会根据变量的数据类型，来分配内存和决定在保留内存中存储什么。
 \section{基本的内置类型}
@@ -186,70 +184,11 @@ signed\\
 unsigned\\
 short\\
 long\\
-下面实例会输出电脑上各种数据类型的大小。\\
-\begin{lstlisting}[language=C++]
-\begin{minted}[xleftmargin=2em]{c++}
-    #include<iostream>  
-    #include <limits>
-     
-    using namespace std;  
-      
-    int main()  {  
-        cout << "type: \t\t" << "************size**************"<< endl;  
-        cout << "bool: \t\t" << "所占字节数：" << sizeof(bool);  
-        cout << "\t最大值：" << (numeric_limits<bool>::max)();  
-        cout << "\t\t最小值：" << (numeric_limits<bool>::min)() << endl;  
-        cout << "char: \t\t" << "所占字节数：" << sizeof(char);  
-        cout << "\t最大值：" << (numeric_limits<char>::max)();  
-        cout << "\t\t最小值：" << (numeric_limits<char>::min)() << endl;  
-        cout << "signed char: \t" << "所占字节数：" << sizeof(signed char);  
-        cout << "\t最大值：" << (numeric_limits<signed char>::max)();  
-        cout << "\t\t最小值：" << (numeric_limits<signed char>::min)() << endl;  
-        cout << "unsigned char: \t" << "所占字节数：" << sizeof(unsigned char);  
-        cout << "\t最大值：" << (numeric_limits<unsigned char>::max)();  
-        cout << "\t\t最小值：" << (numeric_limits<unsigned char>::min)() << endl;  
-        cout << "wchar_t: \t" << "所占字节数：" << sizeof(wchar_t);  
-        cout << "\t最大值：" << (numeric_limits<wchar_t>::max)();  
-        cout << "\t\t最小值：" << (numeric_limits<wchar_t>::min)() << endl;  
-        cout << "short: \t\t" << "所占字节数：" << sizeof(short);  
-        cout << "\t最大值：" << (numeric_limits<short>::max)();  
-        cout << "\t\t最小值：" << (numeric_limits<short>::min)() << endl;  
-        cout << "int: \t\t" << "所占字节数：" << sizeof(int);  
-        cout << "\t最大值：" << (numeric_limits<int>::max)();  
-        cout << "\t最小值：" << (numeric_limits<int>::min)() << endl;  
-        cout << "unsigned: \t" << "所占字节数：" << sizeof(unsigned);  
-        cout << "\t最大值：" << (numeric_limits<unsigned>::max)();  
-        cout << "\t最小值：" << (numeric_limits<unsigned>::min)() << endl;  
-        cout << "long: \t\t" << "所占字节数：" << sizeof(long);  
-        cout << "\t最大值：" << (numeric_limits<long>::max)();  
-        cout << "\t最小值：" << (numeric_limits<long>::min)() << endl;  
-        cout << "unsigned long: \t" << "所占字节数：" << sizeof(unsigned long);  
-        cout << "\t最大值：" << (numeric_limits<unsigned long>::max)();  
-        cout << "\t最小值：" << (numeric_limits<unsigned long>::min)() << endl;  
-        cout << "double: \t" << "所占字节数：" << sizeof(double);  
-        cout << "\t最大值：" << (numeric_limits<double>::max)();  
-        cout << "\t最小值：" << (numeric_limits<double>::min)() << endl;  
-        cout << "long double: \t" << "所占字节数：" << sizeof(long double);  
-        cout << "\t最大值：" << (numeric_limits<long double>::max)();  
-        cout << "\t最小值：" << (numeric_limits<long double>::min)() << endl;  
-        cout << "float: \t\t" << "所占字节数：" << sizeof(float);  
-        cout << "\t最大值：" << (numeric_limits<float>::max)();  
-        cout << "\t最小值：" << (numeric_limits<float>::min)() << endl;  
-        cout << "size_t: \t" << "所占字节数：" << sizeof(size_t);  
-        cout << "\t最大值：" << (numeric_limits<size_t>::max)();  
-        cout << "\t最小值：" << (numeric_limits<size_t>::min)() << endl;  
-        cout << "string: \t" << "所占字节数：" << sizeof(string) << endl;  
-        // << "\t最大值：" << (numeric_limits<string>::max)() << "\t最小值：" << (numeric_limits<string>::min)() << endl;  
-        cout << "type: \t\t" << "************size**************"<< endl;  
-        return 0;  
-    }
-    \end{minted}
-\end{lstlisting}
 
 
-\chapter{C++ 变量类型}
+\chapter{变量类型}
 
-\chapter{C++ 变量作用域}
+\chapter{变量作用域}
 一般来说有三个地方可以定义变量：\\
 在函数或一个代码块内部声明的变量，称为局部变量。\\
 在函数参数的定义中声明的变量，称为形式参数。\\
@@ -261,7 +200,7 @@ long\\
 类作用域：在类内部声明的变量具有类作用域，它们可以被类的所有成员函数访问。类作用域变量的生命周期与类的生命周期相同。
 
 \section{局部变量}
-在函数或一个代码块内部声明的变量，称为局部变量。它们只能被函数内部或者代码块内部的语句使用。下面的实例使用了局部变量：\\
+在函数或一个代码块内部声明的变量，称为局部变量。它们只能被函数内部或者代码块内部的语句使用。下面的实例使用了局部变量：
 \begin{lstlisting}[language=C++]
 int sum(){
 	int a,b,sum; // 局部变量声明
@@ -376,6 +315,8 @@ int main() {
 \chapter{数组}
 
 \chapter{STL}
+
+
 
 \clearpage
 \end{document}
