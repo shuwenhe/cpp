@@ -124,11 +124,11 @@ g++ -std=c++14 cpp.cpp -o cpp
 \subsection{g++常用命令选项}
 -o\\
 file生成指定的输出文件,用在生成可执行文件时。\\
-
-C++ 中的分号 & 语句块\\
+C++ 中的分号\&语句块\\
 编辑编译执行C++程序
 
 \chapter{C++基本语法}
+\section{}
 \begin{lstlisting}[language=C++]
 #include <iostream>
 using namespace std;
@@ -141,7 +141,47 @@ C++头文件<iostream>\\
 using namespace std; 告诉编译器使用std命名空间。\\
 int main()是主函数，程序从这里开始执行。\\
 cout<<"Hello World"; 会在屏幕上显示消息 "Hello World"。\\
-下一行 return 0; 终止 main( )函数，并向调用进程返回值 0。
+下一行 return 0; 终止 main( )函数，并向调用进程返回值 0。\\
+在 C++ 中，分号是语句结束符。也就是说，每个语句必须以分号结束。它表明一个逻辑实体的结束。
+
+\section{C++ 标识符}
+
+\section{C++ 关键字}
+
+\chapter{C++ 注释}
+\section{}
+C++ 支持单行注释和多行注释。注释中的所有字符会被 C++ 编译器忽略。\\
+// - 一般用于单行注释。\\
+/* ... */ - 一般用于多行注释。
+
+\chapter{C++ 数据类型}
+使用编程语言进行编程时，需要用到各种变量来存储各种信息。变量保留的是它所存储的值的内存位置。这意味着，当您创建一个变量时，就会在内存中保留一些空间。\\
+您可能需要存储各种数据类型（比如字符型、宽字符型、整型、浮点型、双浮点型、布尔型等）的信息，操作系统会根据变量的数据类型，来分配内存和决定在保留内存中存储什么。
+\section{基本的内置类型}
+\begin{table}[h]
+    \centering
+    \caption{七种基本的 C++ 数据类型}
+    \label{tab:example}
+    \begin{tabular}{|c|c|}
+    \hline
+    类型 & 关键字\\
+    \hline
+    布尔型 & bool\\
+    \hline
+    字符型 & char\\
+    \hline
+    整型 & int\\
+    \hline
+    浮点型 & float\\
+    \hline
+    双浮点型 & double\\
+    \hline
+    无类型 & void\\
+    \hline
+    宽字符型 & wchar\_t\\
+    \hline
+    \end{tabular}
+\end{table}
 
 \chapter{控制语句}
 \section{for循环}
