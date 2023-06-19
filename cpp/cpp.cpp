@@ -115,7 +115,36 @@ int globalVariable(){
 	return 0;
 }
 
+// blockScope块作用域
+int blockScope(){
+	int i = 1;
+	{
+		int i = 2; // 块作用域变量
+		cout<<"i = "<<i<<endl;
+	}
+	cout<<"i = "<<i<<endl;
+	return 0;
+}
+
+// #define 预处理器定义常量
+#define LENGTH 3
+#define WIDTH 2
+
+int areaDefine(){
+	int area;
+	area = LENGTH * WIDTH;
+	cout<<"area = "<<area<<endl;
+	return 0;
+}
+
+
+// 使用 const 前缀声明指定类型的常量
+int constConstant(){
+	const int LENGTH = 10;
+	const int LENGTH = 10;
+}
+
 int main() {
-	globalVariable();
+	areaDefine();
 }
 

@@ -16,11 +16,14 @@
 \contentsline {chapter}{\numberline {第六章\hspace {.3em}}变量作用域}{9}{chapter.0.6}%
 \contentsline {section}{\numberline {1}局部变量}{9}{section.0.6.1}%
 \contentsline {section}{\numberline {2}全局变量}{10}{section.0.6.2}%
-\contentsline {chapter}{\numberline {第七章\hspace {.3em}}控制语句}{11}{chapter.0.7}%
-\contentsline {section}{\numberline {1}for循环}{11}{section.0.7.1}%
-\contentsline {section}{\numberline {2}}{11}{section.0.7.2}%
-\contentsline {section}{\numberline {3}2014NOIP普及T1珠心算测验}{12}{section.0.7.3}%
-\contentsline {chapter}{\numberline {第八章\hspace {.3em}}函数}{14}{chapter.0.8}%
-\contentsline {section}{\numberline {1}CSP-J（普及组）2022年T1乘方(pow)}{14}{section.0.8.1}%
-\contentsline {chapter}{\numberline {第九章\hspace {.3em}}数组}{15}{chapter.0.9}%
-\contentsline {chapter}{\numberline {第十章\hspace {.3em}}STL}{16}{chapter.0.10}%
+\contentsline {section}{\numberline {3}块作用域}{10}{section.0.6.3}%
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}常量}{11}{chapter.0.7}%
+\contentsline {section}{\numberline {1}\#define预处理器}{11}{section.0.7.1}%
+\contentsline {section}{\numberline {2}const 关键字}{11}{section.0.7.2}%
+\contentsline {chapter}{\numberline {第八章\hspace {.3em}}控制语句}{12}{chapter.0.8}%
+\contentsline {section}{\numberline {1}for循环}{12}{section.0.8.1}%
+\contentsline {section}{\numberline {2}}{12}{section.0.8.2}%
+\contentsline {chapter}{\numberline {第九章\hspace {.3em}}函数}{13}{chapter.0.9}%
+\contentsline {section}{\numberline {1}CSP-J（普及组）2022年T1乘方(pow)}{13}{section.0.9.1}%
+\contentsline {chapter}{\numberline {第十章\hspace {.3em}}数组}{14}{chapter.0.10}%
+\contentsline {chapter}{\numberline {第十一章\hspace {.3em}}STL}{15}{chapter.0.11}%
