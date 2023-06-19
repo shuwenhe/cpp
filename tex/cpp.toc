@@ -9,3 +9,4 @@
 \contentsline {chapter}{\numberline {第三章\hspace {.3em}}函数}{8}{chapter.0.3}%
 \contentsline {section}{\numberline {1}CSP-J（普及组）2022年T1乘方(pow)}{8}{section.0.3.1}%
 \contentsline {chapter}{\numberline {第四章\hspace {.3em}}数组}{9}{chapter.0.4}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}STL}{10}{chapter.0.5}%

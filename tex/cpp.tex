@@ -108,10 +108,19 @@ return 0 一个函数正确执行完成之后需要用return 0来结束\\
 esc推出vi编辑器\\
 :wq保存并推出 write quit\\
 ls查看当前文件夹有什么文件ls - list directory contents
-\subsection{g++编译器}
+
+\section{文本编辑器}
+
+
+\section{C++编译器}
+命令行使用下面的命令来检查您的系统上是否安装了gcc\\
+g++ -v
 g++ 编译器C++\\
-g++ richard.cpp -o richard\\
-./richard 执行编译器编译产生的二进制文件
+使用 -o 选项指定可执行程序的文件名\\
+g++ hello.cpp -o hello\\
+./richard 执行编译器编译产生的二进制文件\\
+指定使用C++14来编译\\
+g++ -std=c++14 cpp.cpp -o cpp 
 
 \chapter{控制语句}
 \section{for循环}
