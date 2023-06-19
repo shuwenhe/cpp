@@ -12,11 +12,11 @@
 \contentsline {section}{\numberline {1}}{6}{section.0.3.1}%
 \contentsline {chapter}{\numberline {第四章\hspace {.3em}}C++ 数据类型}{7}{chapter.0.4}%
 \contentsline {section}{\numberline {1}基本的内置类型}{7}{section.0.4.1}%
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}控制语句}{8}{chapter.0.5}%
-\contentsline {section}{\numberline {1}for循环}{8}{section.0.5.1}%
-\contentsline {section}{\numberline {2}}{8}{section.0.5.2}%
-\contentsline {section}{\numberline {3}2014NOIP普及T1珠心算测验}{9}{section.0.5.3}%
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}函数}{11}{chapter.0.6}%
-\contentsline {section}{\numberline {1}CSP-J（普及组）2022年T1乘方(pow)}{11}{section.0.6.1}%
-\contentsline {chapter}{\numberline {第七章\hspace {.3em}}数组}{12}{chapter.0.7}%
-\contentsline {chapter}{\numberline {第八章\hspace {.3em}}STL}{13}{chapter.0.8}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}控制语句}{10}{chapter.0.5}%
+\contentsline {section}{\numberline {1}for循环}{10}{section.0.5.1}%
+\contentsline {section}{\numberline {2}}{10}{section.0.5.2}%
+\contentsline {section}{\numberline {3}2014NOIP普及T1珠心算测验}{11}{section.0.5.3}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}函数}{13}{chapter.0.6}%
+\contentsline {section}{\numberline {1}CSP-J（普及组）2022年T1乘方(pow)}{13}{section.0.6.1}%
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}数组}{14}{chapter.0.7}%
+\contentsline {chapter}{\numberline {第八章\hspace {.3em}}STL}{15}{chapter.0.8}%
