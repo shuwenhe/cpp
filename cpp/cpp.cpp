@@ -209,8 +209,16 @@ int relationalOperator(){
 	return 0;
 }
 
+// 逻辑运算符
+int logicalOperator(){
+	int a = 3,b = 5,c;
+	cout<<"a = "<<a<<endl;
+	cout<<"b = "<<b<<endl;
+	return 0;
+}
+
 
 int main() {
-	relationalOperator();
+	logicalOperator();
 }
 
