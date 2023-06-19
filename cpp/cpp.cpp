@@ -214,6 +214,23 @@ int logicalOperator(){
 	int a = 3,b = 5,c;
 	cout<<"a = "<<a<<endl;
 	cout<<"b = "<<b<<endl;
+	if (a&&b){
+		cout<<"a&&b条件为 true"<<endl;
+	}
+	if (a || b){
+		cout<<"a||b条件为 true"<<endl;
+	}
+	// 改变a和b的值
+	a = 0;
+	b = 5;
+	if (a && b){
+		cout<<"a&&b条件为 true"<<endl;
+	}else{
+		cout<<"a&&b条件为 false"<<endl;
+	}
+	if (!(a&&b)){
+		cout<<"!(a&&b)条件为 true"<<endl;
+	}
 	return 0;
 }
 
