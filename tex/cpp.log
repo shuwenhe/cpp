@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.1 (MiKTeX 23.4) (format=lualatex 2023.6.13)  19 JUN 2023 14:45
+This is LuaHBTeX, Version 1.16.1 (MiKTeX 23.4) (format=lualatex 2023.6.13)  19 JUN 2023 16:06
  restricted system commands enabled.
 **cpp.tex
 (./cpp.tex
@@ -1162,13 +1162,32 @@ LaTeX Font Info:    Font shape `LTJY3/SimSun(0)/bx/n' in size <24.88> not avail
 able
 (Font)              Font shape `LTJY3/SimSun(0)/b/n' tried instead on input lin
 e 79.
- (./cpp.toc)
+ (./cpp.toc [2
+
+])
 \tf@toc=\write5
 
 \openout5 = cpp.toc
- [2
+<shuwenedu.png, id=84, 100.87688pt x 26.34843pt>
+File: shuwenedu.png Graphic file (type png)
+<use shuwenedu.png>
+Package luatex.def Info: shuwenedu.png  used on input line 90.
+(luatex.def)             Requested size: 100.87662pt x 26.34836pt.
 
-]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6984pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6984pt}.
+
+<pku.png, id=85, 24.09pt x 24.09pt>
+File: pku.png Graphic file (type png)
+<use pku.png>
+Package luatex.def Info: pku.png  used on input line 90.
+(luatex.def)             Requested size: 24.08992pt x 24.08992pt.
+[3<./shuwenedu.png><./pku.png>]
 第一章
 LaTeX Font Info:    Font shape `LTJY3/SimSun(0)/bx/n' in size <14.4> not availa
 ble
@@ -1178,10 +1197,9 @@ LaTeX Font Info:    Font shape `LTJY3/SimSun(0)/bx/n' in size <17.28> not avail
 able
 (Font)              Font shape `LTJY3/SimSun(0)/b/n' tried instead on input lin
 e 108.
-[3
+[4
 
 ]
-<shuwenedu.png, id=86, 100.87688pt x 26.34843pt>
 File: shuwenedu.png Graphic file (type png)
 <use shuwenedu.png>
 Package luatex.def Info: shuwenedu.png  used on input line 126.
@@ -1195,14 +1213,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-18.6984pt}.
 
-<pku.png, id=87, 24.09pt x 24.09pt>
 File: pku.png Graphic file (type png)
 <use pku.png>
 Package luatex.def Info: pku.png  used on input line 126.
 (luatex.def)             Requested size: 24.08992pt x 24.08992pt.
-[4<./shuwenedu.png><./pku.png>]
+[5]
 第二章
-[5
+[6
 
 ]
 第三章
@@ -1218,27 +1235,27 @@ File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'. [6
+Removing  `ltj.listings_unicode' from `process_input_buffer'. [7
 
 ]
 第四章
-[7
+[8
 
 ]
 第五章
 (load cache: extra_lmroman8-regular.luc)(load cache: extra_lmroman6-regular.luc)
-[8
+[9
 
 ]
 第六章
-[9
+[10
 
 ]
 第七章
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'. [10
+Removing  `ltj.listings_unicode' from `process_input_buffer'. [11
 
 ]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
@@ -1266,19 +1283,8 @@ File: pku.png Graphic file (type png)
 <use pku.png>
 Package luatex.def Info: pku.png  used on input line 244.
 (luatex.def)             Requested size: 24.08992pt x 24.08992pt.
-[11]
+[12]
 第八章
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'. [12
-
-]
-第九章
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
@@ -1289,34 +1295,52 @@ Inserting `ltj.process_input_buffer' in `process_input_buffer'.
 Removing  `ltj.listings_unicode' from `process_input_buffer'. [13
 
 ]
+第九章
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'. [14
+
+]
 第十章
-[14
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'. [15
 
 ]
 第十一章
-[15
+[16
 
 ]
 第十二章
-[16
+[17
+
+]
+第十三章
+[18
 
 ] (./cpp.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `cpp.out' has not changed.
-(rerunfilecheck)             Checksum: 6F2E59B0E25B42F9366AB8883C979D07;1364.
+(rerunfilecheck)             Checksum: F8837CA100C637ECA475CF7BB3598C17;1499.
 )
 
 Here is how much of LuaTeX's memory you used:
- 21470 strings out of 478278
+ 21498 strings out of 478278
  125096,1977958 words of node,token memory allocated
  910 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 142 attribute, 66 glue_spe
 c, 22 attribute_list, 2 write, 10 user_defined nodes
-   avail lists: 1:3,2:30997,3:297,4:2370,5:378,6:54,7:2724,8:2,9:2680,10:16,11:1
+   avail lists: 1:3,2:30997,3:297,4:2370,5:391,6:54,7:2724,8:2,9:2680,10:16,11:1
 8,12:1
- 40609 multiletter control sequences out of 65536+600000
+ 40616 multiletter control sequences out of 65536+600000
  110 fonts using 145353175 bytes
  88i,15n,111p,1200b,710s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Windows/Fonts/simkai.ttf><//?/c:/ctex/miktex/fonts/opentype/public/lm/lmroma
@@ -1325,9 +1349,9 @@ C:/Windows/Fonts/simhei.ttf><//?/c:/ctex/miktex/fonts/opentype/public/lm/lmroman
 12-regular.otf><C:/Windows/Fonts/simsun.ttc><//?/c:/ctex/miktex/fonts/opentype/p
 ublic/lm/lmroman17-regular.otf><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 tt12.pfb>
-Output written on cpp.pdf (16 pages, 152472 bytes).
+Output written on cpp.pdf (18 pages, 158303 bytes).
 
-PDF statistics: 288 PDF objects out of 1000 (max. 8388607)
- 121 named destinations out of 1000 (max. 131072)
- 97 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 313 PDF objects out of 1000 (max. 8388607)
+ 134 named destinations out of 1000 (max. 131072)
+ 105 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -158,7 +158,33 @@ int modifier(){
 	return 0;
 }
 
+// 算术运算符
+int arithmeticOperator(){
+	int a = 5;
+	int b = 3;
+	int c;
+	cout<<"a = "<<a<<endl;
+	cout<<"b = "<<b<<endl;
+	c = a + b;
+	cout<<"c = a + b = "<<c<<endl;
+	c = a - b;
+	cout<<"c = a - b = "<<c<<endl;
+	c = a * b;
+	cout<<"c = a * b = "<<c<<endl;
+	c = a / b;
+	cout<<"c = a / b = "<<c<<endl;
+	c = a % b;
+	cout<<"c = a % b = "<<c<<endl;
+	int d = 7;
+	cout<<"d = "<<d<<endl;
+	c = d++;
+	cout<<"c = d++ = "<<c<<endl;
+	c = d--;
+	cout<<"c = d-- = "<<c<<endl;
+	return 0;
+}
+
 int main() {
-	modifier();
+	arithmeticOperator();
 }
 
