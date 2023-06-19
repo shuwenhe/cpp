@@ -371,6 +371,32 @@ C++ 中的逻辑运算符包括逻辑与（\&\&）、逻辑或（||）、逻辑�
 同样的道理，当使用逻辑或（||）时，只有当两个操作数都为假（零）时，整个表达式才为假，否则为真。如果一个操作数为假，另一个操作数为真，整个表达式的结果也是真。\\
 逻辑非（!）则是将操作数的真假值取反。如果操作数为真，取反后就是假；如果操作数为假，取反后就是真。\\
 因此，当使用逻辑运算符时，需要注意操作数的真假值，以便正确地求出整个表达式的值。
+\begin{lstlisting}[language=C++]
+// 逻辑运算符
+int logicalOperator(){
+	int a = 3,b = 5,c;
+	cout<<"a = "<<a<<endl;
+	cout<<"b = "<<b<<endl;
+	if (a&&b){
+		cout<<"a&&b条件为 true"<<endl;
+	}
+	if (a || b){
+		cout<<"a||b条件为 true"<<endl;
+	}
+	// 改变a和b的值
+	a = 0;
+	b = 5;
+	if (a && b){
+		cout<<"a&&b条件为 true"<<endl;
+	}else{
+		cout<<"a&&b条件为 false"<<endl;
+	}
+	if (!(a&&b)){
+		cout<<"!(a&&b)条件为 true"<<endl;
+	}
+	return 0;
+}
+\end{lstlisting}
 
 \chapter{控制语句}
 \section{for循环}

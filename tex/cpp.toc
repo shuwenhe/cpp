@@ -25,10 +25,10 @@
 \contentsline {section}{\numberline {1}算术运算符}{15}{section.0.10.1}%
 \contentsline {section}{\numberline {2}关系运算符}{16}{section.0.10.2}%
 \contentsline {section}{\numberline {3}逻辑运算符}{16}{section.0.10.3}%
-\contentsline {chapter}{\numberline {第十一章\hspace {.3em}}控制语句}{18}{chapter.0.11}%
-\contentsline {section}{\numberline {1}for循环}{18}{section.0.11.1}%
-\contentsline {section}{\numberline {2}}{18}{section.0.11.2}%
-\contentsline {chapter}{\numberline {第十二章\hspace {.3em}}函数}{19}{chapter.0.12}%
-\contentsline {section}{\numberline {1}CSP-J（普及组）2022年T1乘方(pow)}{19}{section.0.12.1}%
-\contentsline {chapter}{\numberline {第十三章\hspace {.3em}}数组}{20}{chapter.0.13}%
-\contentsline {chapter}{\numberline {第十四章\hspace {.3em}}STL}{21}{chapter.0.14}%
+\contentsline {chapter}{\numberline {第十一章\hspace {.3em}}控制语句}{19}{chapter.0.11}%
+\contentsline {section}{\numberline {1}for循环}{19}{section.0.11.1}%
+\contentsline {section}{\numberline {2}}{19}{section.0.11.2}%
+\contentsline {chapter}{\numberline {第十二章\hspace {.3em}}函数}{20}{chapter.0.12}%
+\contentsline {section}{\numberline {1}CSP-J（普及组）2022年T1乘方(pow)}{20}{section.0.12.1}%
+\contentsline {chapter}{\numberline {第十三章\hspace {.3em}}数组}{21}{chapter.0.13}%
+\contentsline {chapter}{\numberline {第十四章\hspace {.3em}}STL}{22}{chapter.0.14}%
