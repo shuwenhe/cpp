@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.1 (MiKTeX 23.4) (format=lualatex 2023.6.13)  19 JUN 2023 14:36
+This is LuaHBTeX, Version 1.16.1 (MiKTeX 23.4) (format=lualatex 2023.6.13)  19 JUN 2023 14:45
  restricted system commands enabled.
 **cpp.tex
 (./cpp.tex
@@ -1181,7 +1181,7 @@ e 108.
 [3
 
 ]
-<shuwenedu.png, id=81, 100.87688pt x 26.34843pt>
+<shuwenedu.png, id=86, 100.87688pt x 26.34843pt>
 File: shuwenedu.png Graphic file (type png)
 <use shuwenedu.png>
 Package luatex.def Info: shuwenedu.png  used on input line 126.
@@ -1195,7 +1195,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-18.6984pt}.
 
-<pku.png, id=82, 24.09pt x 24.09pt>
+<pku.png, id=87, 24.09pt x 24.09pt>
 File: pku.png Graphic file (type png)
 <use pku.png>
 Package luatex.def Info: pku.png  used on input line 126.
@@ -1271,6 +1271,10 @@ Package luatex.def Info: pku.png  used on input line 244.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' in `process_input_buffer'.
 Removing  `ltj.listings_unicode' from `process_input_buffer'. [12
 
 ]
@@ -1300,28 +1304,19 @@ Removing  `ltj.listings_unicode' from `process_input_buffer'. [13
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `cpp.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cpp.out':
-(rerunfilecheck)             Before: DC907024A3DDEEB5DA624017035A1A81;1226
-(rerunfilecheck)             After:  6F2E59B0E25B42F9366AB8883C979D07;1364.
+Package rerunfilecheck Info: File `cpp.out' has not changed.
+(rerunfilecheck)             Checksum: 6F2E59B0E25B42F9366AB8883C979D07;1364.
 )
 
 Here is how much of LuaTeX's memory you used:
- 21452 strings out of 478278
+ 21470 strings out of 478278
  125096,1977958 words of node,token memory allocated
  910 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 142 attribute, 66 glue_spe
 c, 22 attribute_list, 2 write, 10 user_defined nodes
-   avail lists: 1:4,2:30997,3:279,4:2026,5:366,6:54,7:2724,8:2,9:2478,10:16,11:1
+   avail lists: 1:3,2:30997,3:297,4:2370,5:378,6:54,7:2724,8:2,9:2680,10:16,11:1
 8,12:1
- 40601 multiletter control sequences out of 65536+600000
+ 40609 multiletter control sequences out of 65536+600000
  110 fonts using 145353175 bytes
  88i,15n,111p,1200b,710s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Windows/Fonts/simkai.ttf><//?/c:/ctex/miktex/fonts/opentype/public/lm/lmroma
@@ -1330,9 +1325,9 @@ C:/Windows/Fonts/simhei.ttf><//?/c:/ctex/miktex/fonts/opentype/public/lm/lmroman
 12-regular.otf><C:/Windows/Fonts/simsun.ttc><//?/c:/ctex/miktex/fonts/opentype/p
 ublic/lm/lmroman17-regular.otf><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 tt12.pfb>
-Output written on cpp.pdf (16 pages, 149130 bytes).
+Output written on cpp.pdf (16 pages, 152472 bytes).
 
-PDF statistics: 274 PDF objects out of 1000 (max. 8388607)
- 111 named destinations out of 1000 (max. 131072)
- 89 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 288 PDF objects out of 1000 (max. 8388607)
+ 121 named destinations out of 1000 (max. 131072)
+ 97 words of extra memory for PDF output out of 10000 (max. 100000000)
 
