@@ -148,7 +148,17 @@ int constConstant(){
 	return 0;
 }
 
+int modifier(){
+	short int i; // 有符号短整数
+	short unsigned int j;
+	j = 50000;
+	i = j;
+	cout<<"j = "<<j<<endl;	
+	cout<<"i = "<<i<<endl;	
+	return 0;
+}
+
 int main() {
-	constConstant();
+	modifier();
 }
 
