@@ -111,7 +111,6 @@ ls查看当前文件夹有什么文件ls - list directory contents
 
 \section{文本编辑器}
 
-
 \section{C++编译器}
 命令行使用下面的命令来检查您的系统上是否安装了gcc\\
 g++ -v
@@ -121,6 +120,28 @@ g++ hello.cpp -o hello\\
 ./richard 执行编译器编译产生的二进制文件\\
 指定使用C++14来编译\\
 g++ -std=c++14 cpp.cpp -o cpp 
+
+\subsection{g++常用命令选项}
+-o\\
+file生成指定的输出文件,用在生成可执行文件时。\\
+
+C++ 中的分号 & 语句块\\
+编辑编译执行C++程序
+
+\chapter{C++基本语法}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+using namespace std;
+int main() {
+	cout<<"hello"<<endl;
+	return 0;
+}
+\end{lstlisting}
+C++头文件<iostream>\\
+using namespace std; 告诉编译器使用std命名空间。\\
+int main()是主函数，程序从这里开始执行。\\
+cout<<"Hello World"; 会在屏幕上显示消息 "Hello World"。\\
+下一行 return 0; 终止 main( )函数，并向调用进程返回值 0。
 
 \chapter{控制语句}
 \section{for循环}
