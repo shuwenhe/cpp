@@ -140,11 +140,15 @@ int areaDefine(){
 
 // 使用 const 前缀声明指定类型的常量
 int constConstant(){
-	const int LENGTH = 10;
-	const int LENGTH = 10;
+	const int LENGTH_ = 3;
+	const int WIDTH_ = 2;
+	int area;
+	area = LENGTH_ * WIDTH_;
+	cout<<"area = "<<area<<endl; 
+	return 0;
 }
 
 int main() {
-	areaDefine();
+	constConstant();
 }
 
