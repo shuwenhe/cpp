@@ -263,7 +263,6 @@ long\\
 \section{局部变量}
 在函数或一个代码块内部声明的变量，称为局部变量。它们只能被函数内部或者代码块内部的语句使用。下面的实例使用了局部变量：\\
 \begin{lstlisting}[language=C++]
-// 局部变量
 int sum(){
 	int a,b,sum; // 局部变量声明
 	a = 1,b = 2; // 实际初始化
@@ -272,6 +271,10 @@ int sum(){
 	return 0;
 }
 \end{lstlisting}
+
+\section{全局变量}
+局部变量和全局变量的名称可以相同，但是在函数内，局部变量的值会覆盖全局变量的值。下面是一个实例：\\
+
 
 \chapter{控制语句}
 \section{for循环}

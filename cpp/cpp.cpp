@@ -153,8 +153,8 @@ int typeTest()  {
     return 0;  
 }
 
-// 局部变量
-int sum(){
+// localVariable局部变量
+int localVariable(){
 	int a,b,sum; // 局部变量声明
 	a = 1,b = 2; // 实际初始化
 	sum = a + b;
@@ -162,7 +162,15 @@ int sum(){
 	return 0;
 }
 
+// globalVariable 全局变量
+int i = 3;
+int globalVariable(){
+	int i = 5;
+	cout<<"i = "<<i<<endl;
+	return 0;
+}
+
 int main() {
-	sum();
+	globalVariable();
 }
 
