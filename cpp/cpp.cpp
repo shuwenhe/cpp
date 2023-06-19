@@ -93,7 +93,12 @@ int holiday(){
 	return 0;
 }
 
+int hello(){
+	cout<<"hello"<<endl;
+	return 0;
+}
+
 int main() {
-	holiday();
+	hello();
 }
 
