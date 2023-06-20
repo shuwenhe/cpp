@@ -19,10 +19,11 @@
 \usepackage{epstopdf}
 \usepackage{cite}
 \usepackage{listings}
+\usepackage{tocbibind}
 \usepackage[numbers,sort&compress]{natbib}
 
 \setlength\parskip{\baselineskip}
-\setcounter{tocdepth}{0}
+\setcounter{tocdepth}{8} % 生成目录层级
 \setcounter{secnumdepth}{4}
 \renewcommand\thesection{\arabic{section}}
 \usepackage[pdfstartview=FitH,CJKbookmarks=true,bookmarks,bookmarksnumbered=true,
@@ -76,7 +77,8 @@ ShuwenHe\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \title{C++基础}
 \maketitle
-\tableofcontents
+\tableofcontents % 显示目录
+\newpage
 \pagestyle{fancy}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
