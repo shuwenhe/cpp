@@ -436,7 +436,174 @@ int forSum(){
 
 \chapter{STL}
 
+\chapter{class类}
+在C++中，`class`关键字用于定义一个类。类是一种用户自定义的数据类型，用于封装数据和操作。类可以包含成员变量（属性）和成员函数（方法），
+用于描述对象的状态和行为。
 
+以下是一个简单的C++类的示例：
+
+\begin{lstlisting}[language=C++]
+#include <iostream>
+using namespace std;
+
+class Rectangle {
+private:
+    int length;
+    int width;
+
+public:
+    // 构造函数
+    Rectangle(int l, int w) : length(l), width(w) {}
+
+    // 成员函数
+    int getArea() {
+        return length * width;
+    }
+
+    // 成员函数
+    int getPerimeter() {
+        return 2 * (length + width);
+    }
+};
+
+int main() {
+    // 创建一个 Rectangle 对象
+    Rectangle rect(5, 3);
+
+    // 调用对象的成员函数
+    int area = rect.getArea();
+    int perimeter = rect.getPerimeter();
+
+    // 打印结果
+    cout << "Area: " << area << endl;
+    cout << "Perimeter: " << perimeter << endl;
+
+    return 0;
+}
+\end{lstlisting}
+在上述示例中，定义了一个名为`Rectangle`的类，它具有私有成员变量`length`和`width`，以及公有成员函数`getArea()`和`getPerimeter()`。构造函数用于初始化对象的数据成员。
+在`main()`函数中，创建了一个`Rectangle`对象`rect`，并使用对象的成员函数`getArea()`和`getPerimeter()`计算矩形的面积和周长。最后，使用`std::cout`打印结果。
+类提供了一种组织和封装相关数据和行为的方式，使代码更加模块化和可维护。通过类的实例化，可以创建多个对象，每个对象都有自己的数据和方法。
+除了成员变量和成员函数，类还可以包含访问修饰符（如`public`、`private`、`protected`）和其他特性（如继承、多态）等。
+
+\section{构造函数}
+在C++中，构造函数是一种特殊的成员函数，用于在创建对象时进行初始化操作。构造函数的名称与类的名称相同，并且没有返回类型（包括`void`）。它可以有参数，
+也可以没有参数。\\
+构造函数在以下几种情况下会被自动调用：\\
+1. 在创建对象时，使用`new`运算符动态分配内存时。\\
+2. 在声明对象时，使用类的默认构造函数进行初始化。\\
+3. 在将一个对象作为参数传递给函数时，调用拷贝构造函数进行复制。\\
+以下是一个简单的示例，展示了如何定义和使用构造函数：
+\begin{lstlisting}[language=C++]
+#include <iostream>
+
+class MyClass {
+private:
+    int value;
+
+public:
+    // 默认构造函数
+    MyClass() {
+        value = 0;
+        std::cout << "Default constructor called" << std::endl;
+    }
+
+    // 带参数的构造函数
+    MyClass(int val) {
+        value = val;
+        std::cout << "Parameterized constructor called" << std::endl;
+    }
+
+    // 成员函数
+    int getValue() {
+        return value;
+    }
+};
+
+int main() {
+    // 使用默认构造函数创建对象
+    MyClass obj1;
+    std::cout << "Value: " << obj1.getValue() << std::endl;
+
+    // 使用带参数的构造函数创建对象
+    MyClass obj2(10);
+    std::cout << "Value: " << obj2.getValue() << std::endl;
+
+    return 0;
+}
+\end{lstlisting}
+在上述示例中，定义了一个名为`MyClass`的类，其中包含一个私有成员变量`value`和三个构造函数。默认构造函数用于初始化`value`为0，带参数的构造函数用于将传入的值赋给`value`。\\
+在`main()`函数中，首先使用默认构造函数创建了一个`MyClass`对象`obj1`，并通过`getValue()`方法获取对象的值并打印。然后，使用带参数的构造函数创建了另一个对象`obj2`，同样获取并打印了对象的值。\\
+构造函数在对象创建时自动调用，用于进行必要的初始化工作。你可以根据需要定义不同的构造函数，以支持不同的初始化方式。\\
+希望这个示例对你有帮助！如果你还有其他问题，请随时提问。
+
+\section{拷贝构造函数}
+在C++中，拷贝构造函数（Copy Constructor）是一种特殊的构造函数，用于创建一个对象的副本。拷贝构造函数通常以传入对象的引用作为参数，
+并使用该对象的数据来初始化新对象。\\
+拷贝构造函数在以下情况下会被自动调用：\\
+1. 在将一个对象作为参数传递给函数时，进行参数的复制。\\
+2. 在使用一个对象初始化另一个对象时，进行对象的复制。\\
+3. 在函数返回一个对象时，进行对象的复制。\\
+以下是一个简单的示例，展示了如何定义和使用拷贝构造函数：
+\begin{lstlisting}[language=C++]
+#include <iostream>
+
+class MyClass {
+private:
+    int value;
+
+public:
+    // 默认构造函数
+    MyClass() {
+        value = 0;
+        std::cout << "Default constructor called" << std::endl;
+    }
+
+    // 带参数的构造函数
+    MyClass(int val) {
+        value = val;
+        std::cout << "Parameterized constructor called" << std::endl;
+    }
+
+    // 拷贝构造函数
+    MyClass(const MyClass& other) {
+        value = other.value;
+        std::cout << "Copy constructor called" << std::endl;
+    }
+
+    // 成员函数
+    int getValue() {
+        return value;
+    }
+};
+
+void printObject(const MyClass& obj) {
+    std::cout << "Object value: " << obj.getValue() << std::endl;
+}
+
+int main() {
+    // 使用默认构造函数创建对象
+    MyClass obj1;
+    std::cout << "Value: " << obj1.getValue() << std::endl;
+
+    // 使用带参数的构造函数创建对象
+    MyClass obj2(10);
+    std::cout << "Value: " << obj2.getValue() << std::endl;
+
+    // 使用拷贝构造函数创建对象的副本
+    MyClass obj3 = obj2;
+    std::cout << "Value: " << obj3.getValue() << std::endl;
+
+    // 作为函数参数传递对象
+    printObject(obj3);
+
+    return 0;
+}
+\end{lstlisting}
+在上述示例中，`MyClass`类定义了默认构造函数、带参数的构造函数和拷贝构造函数。拷贝构造函数以传入对象的引用作为参数，并将传入对象的值复制给新对象的成员变量。\\
+在`main()`函数中，首先使用默认构造函数创建了一个`MyClass`对象`obj1`，然后使用带参数的构造函数创建了另一个对象`obj2`。接下来，使用拷贝构造函数将`obj2`复制到新对象`obj3`。最后，通过调用`printObject()`函数将`obj3`作为参数传递给函数。\\
+拷贝构造函数在对象的复制过程中起到重要作用，确保新对象与原始对象具有相同的值。如果没有显式定义拷贝构造函数，编译器会自动生成一个默认的拷贝构造函数。\\
+需要注意的是，拷贝构造函数的参数通常是`const`引用，以防止在拷
 
 \clearpage
 \end{document}

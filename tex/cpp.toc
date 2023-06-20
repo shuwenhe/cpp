@@ -33,3 +33,6 @@
 \contentsline {section}{\numberline {1}CSP-J（普及组）2022年T1乘方(pow)}{21}{section.0.13.1}%
 \contentsline {chapter}{\numberline {第十四章\hspace {.3em}}数组}{22}{chapter.0.14}%
 \contentsline {chapter}{\numberline {第十五章\hspace {.3em}}STL}{23}{chapter.0.15}%
+\contentsline {chapter}{\numberline {第十六章\hspace {.3em}}class类}{24}{chapter.0.16}%
+\contentsline {section}{\numberline {1}构造函数}{25}{section.0.16.1}%
+\contentsline {section}{\numberline {2}拷贝构造函数}{27}{section.0.16.2}%

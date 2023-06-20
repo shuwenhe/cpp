@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.1 (MiKTeX 23.4) (format=lualatex 2023.6.13)  20 JUN 2023 09:04
+This is LuaHBTeX, Version 1.16.1 (MiKTeX 23.4) (format=lualatex 2023.6.13)  20 JUN 2023 13:41
  restricted system commands enabled.
 **cpp.tex
 (./cpp.tex
@@ -1168,7 +1168,7 @@ e 79.
 \tf@toc=\write5
 
 \openout5 = cpp.toc
-<shuwenedu.png, id=94, 100.87688pt x 26.34843pt>
+<shuwenedu.png, id=99, 100.87688pt x 26.34843pt>
 File: shuwenedu.png Graphic file (type png)
 <use shuwenedu.png>
 Package luatex.def Info: shuwenedu.png  used on input line 90.
@@ -1182,14 +1182,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-18.6984pt}.
 
-<pku.png, id=95, 24.09pt x 24.09pt>
+<pku.png, id=100, 24.09pt x 24.09pt>
 File: pku.png Graphic file (type png)
 <use pku.png>
 Package luatex.def Info: pku.png  used on input line 90.
 (luatex.def)             Requested size: 24.08992pt x 24.08992pt.
 [3<./shuwenedu.png><./pku.png>]
 第一章
-<cpp.png, id=103, 494.84875pt x 804.00375pt>
+<cpp.png, id=108, 494.84875pt x 804.00375pt>
 File: cpp.png Graphic file (type png)
 <use cpp.png>
 Package luatex.def Info: cpp.png  used on input line 91.
@@ -1414,7 +1414,126 @@ Removing  `ltj.listings_unicode' from `process_input_buffer'. [20
 第十五章
 [23
 
-] (./cpp.aux)
+]
+第十六章
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' in `process_input_buffer'. [24
+
+]
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' in `process_input_buffer'.
+File: shuwenedu.png Graphic file (type png)
+<use shuwenedu.png>
+Package luatex.def Info: shuwenedu.png  used on input line 504.
+(luatex.def)             Requested size: 100.87662pt x 26.34836pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6984pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6984pt}.
+
+File: pku.png Graphic file (type png)
+<use pku.png>
+Package luatex.def Info: pku.png  used on input line 504.
+(luatex.def)             Requested size: 24.08992pt x 24.08992pt.
+[25]
+Overfull \hbox (13.10818pt too wide) in paragraph at lines 514--515
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+Overfull \hbox (16.6153pt too wide) in paragraph at lines 535--539
+|\LTJY3/SimSun(0)/m/n/12 在 \TU/lmr/m/n/12 ‘main()‘|\LTJY3/SimSun(0)/m/n/1
+2 函 |数 |中 [] |首 |先 |使 |用 |默 |认 |构 |造 |函 |数 |创 |建 
+|了 |一 |个 \TU/lmr/m/n/12 ‘MyClass‘|\LTJY3/SimSun(0)/m/n/12 对 |象 \T
+U/lmr/m/n/12 ‘obj1‘[] |\LTJY3/SimSun(0)/m/n/12 并 |通 |过 \TU/lmr/m/n/12
+ ‘getValue()‘|\LTJY3/SimSun(0)/m/n/12 方
+ []
+
+File: shuwenedu.png Graphic file (type png)
+<use shuwenedu.png>
+Package luatex.def Info: shuwenedu.png  used on input line 539.
+(luatex.def)             Requested size: 100.87662pt x 26.34836pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6984pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6984pt}.
+
+File: pku.png Graphic file (type png)
+<use pku.png>
+Package luatex.def Info: pku.png  used on input line 539.
+(luatex.def)             Requested size: 24.08992pt x 24.08992pt.
+[26]
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' in `process_input_buffer'.
+Overfull \hbox (13.10818pt too wide) in paragraph at lines 565--566
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+File: shuwenedu.png Graphic file (type png)
+<use shuwenedu.png>
+Package luatex.def Info: shuwenedu.png  used on input line 571.
+(luatex.def)             Requested size: 100.87662pt x 26.34836pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6984pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6984pt}.
+
+File: pku.png Graphic file (type png)
+<use pku.png>
+Package luatex.def Info: pku.png  used on input line 571.
+(luatex.def)             Requested size: 24.08992pt x 24.08992pt.
+[27]
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+File: shuwenedu.png Graphic file (type png)
+<use shuwenedu.png>
+Package luatex.def Info: shuwenedu.png  used on input line 607.
+(luatex.def)             Requested size: 100.87662pt x 26.34836pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6984pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6984pt}.
+
+File: pku.png Graphic file (type png)
+<use pku.png>
+Package luatex.def Info: pku.png  used on input line 607.
+(luatex.def)             Requested size: 24.08992pt x 24.08992pt.
+[28]
+File: shuwenedu.png Graphic file (type png)
+<use shuwenedu.png>
+Package luatex.def Info: shuwenedu.png  used on input line 608.
+(luatex.def)             Requested size: 100.87662pt x 26.34836pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6984pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6984pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6984pt}.
+
+File: pku.png Graphic file (type png)
+<use pku.png>
+Package luatex.def Info: pku.png  used on input line 608.
+(luatex.def)             Requested size: 24.08992pt x 24.08992pt.
+[29] (./cpp.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1422,18 +1541,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `cpp.out' has not changed.
-(rerunfilecheck)             Checksum: F74478858D5514C98199FC385F2F9AA0;1776.
+(rerunfilecheck)             Checksum: CEA5D43CE18FE7195A06BF42A26204B7;1904.
 )
 
 Here is how much of LuaTeX's memory you used:
- 21646 strings out of 478278
- 195470,1977958 words of node,token memory allocated
+ 21867 strings out of 478278
+ 244344,1977958 words of node,token memory allocated
  910 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 142 attribute, 66 glue_spe
 c, 22 attribute_list, 2 write, 10 user_defined nodes
-   avail lists: 1:7,2:50646,3:396,4:3868,5:662,6:66,7:4290,8:3,9:4202,10:16,11:1
-8,12:1
- 40639 multiletter control sequences out of 65536+600000
+   avail lists: 1:8,2:62617,3:489,4:4296,5:826,6:78,7:4461,8:2,9:5284,10:16,11:2
+2,12:1
+ 40682 multiletter control sequences out of 65536+600000
  110 fonts using 145353175 bytes
  88i,16n,111p,1200b,979s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Windows/Fonts/simkai.ttf><//?/c:/ctex/miktex/fonts/opentype/public/lm/lmroma
@@ -1442,9 +1561,9 @@ C:/Windows/Fonts/simhei.ttf><//?/c:/ctex/miktex/fonts/opentype/public/lm/lmroman
 12-regular.otf><C:/Windows/Fonts/simsun.ttc><//?/c:/ctex/miktex/fonts/opentype/p
 ublic/lm/lmroman17-regular.otf><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 tt12.pfb>
-Output written on cpp.pdf (23 pages, 217685 bytes).
+Output written on cpp.pdf (29 pages, 266343 bytes).
 
-PDF statistics: 438 PDF objects out of 1000 (max. 8388607)
- 231 named destinations out of 1000 (max. 131072)
- 121 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 602 PDF objects out of 1000 (max. 8388607)
+ 369 named destinations out of 1000 (max. 131072)
+ 129 words of extra memory for PDF output out of 10000 (max. 100000000)
 
