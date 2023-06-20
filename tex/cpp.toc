@@ -1,10 +1,10 @@
 \contentsline {chapter}{目录}{2}{chapter*.1}%
 \contentsline {chapter}{\numberline {第一章\hspace {.3em}}C++基础思维导图}{5}{chapter.0.1}%
 \contentsline {chapter}{\numberline {第二章\hspace {.3em}}linux命令}{6}{chapter.0.2}%
-\contentsline {subsection}{\numberline {0.1}文件命令}{6}{subsection.0.2.0.1}%
-\contentsline {section}{\numberline {1}文本编辑器}{6}{section.0.2.1}%
-\contentsline {section}{\numberline {2}C++编译器}{6}{section.0.2.2}%
-\contentsline {subsection}{\numberline {2.1}g++常用命令选项}{7}{subsection.0.2.2.1}%
+\contentsline {section}{\numberline {1}文件命令}{6}{section.0.2.1}%
+\contentsline {section}{\numberline {2}文本编辑器}{6}{section.0.2.2}%
+\contentsline {section}{\numberline {3}C++编译器}{6}{section.0.2.3}%
+\contentsline {subsection}{\numberline {3.1}g++常用命令选项}{7}{subsection.0.2.3.1}%
 \contentsline {chapter}{\numberline {第三章\hspace {.3em}}vi编辑器}{8}{chapter.0.3}%
 \contentsline {chapter}{\numberline {第四章\hspace {.3em}}基本语法}{9}{chapter.0.4}%
 \contentsline {section}{\numberline {1}代码介绍}{9}{section.0.4.1}%
@@ -17,11 +17,12 @@
 \contentsline {subsection}{\numberline {1.1}基本的内置类型}{11}{subsection.0.6.1.1}%
 \contentsline {subsection}{\numberline {1.2}自定义数据类型}{12}{subsection.0.6.1.2}%
 \contentsline {subsubsection}{\numberline {1.2.1}struct结构体}{12}{subsubsection.0.6.1.2.1}%
-\contentsline {section}{\numberline {2}变量类型}{12}{section.0.6.2}%
-\contentsline {section}{\numberline {3}变量作用域}{12}{section.0.6.3}%
+\contentsline {subsubsection}{\numberline {1.2.2}class类}{12}{subsubsection.0.6.1.2.2}%
+\contentsline {section}{\numberline {2}变量类型}{13}{section.0.6.2}%
+\contentsline {section}{\numberline {3}变量作用域}{13}{section.0.6.3}%
 \contentsline {section}{\numberline {4}局部变量}{13}{section.0.6.4}%
-\contentsline {section}{\numberline {5}全局变量}{13}{section.0.6.5}%
-\contentsline {section}{\numberline {6}块作用域}{13}{section.0.6.6}%
+\contentsline {section}{\numberline {5}全局变量}{14}{section.0.6.5}%
+\contentsline {section}{\numberline {6}块作用域}{14}{section.0.6.6}%
 \contentsline {chapter}{\numberline {第七章\hspace {.3em}}常量}{15}{chapter.0.7}%
 \contentsline {section}{\numberline {1}\#define预处理器}{15}{section.0.7.1}%
 \contentsline {section}{\numberline {2}const 关键字}{15}{section.0.7.2}%
