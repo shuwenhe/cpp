@@ -97,74 +97,7 @@ ShuwenHe\\
 \chapter{C++基础思维导图}
 \includegraphics[scale=0.15]{cpp.png}
 
-\chapter{linux命令}
-\section{文件命令}
-mkdir cpp 创建文件夹\\
-cd cpp 进入文件夹\\
-vi richard.cpp\\
-i进入insert模式\\
-o进入下一行\\
-int 整型\\
-main()主函数function\\
-// 单行注释\\
-“”输入字符串\\
-endl\\
-;一行语句结束需要用分号结束\\
-return 0 一个函数正确执行完成之后需要用return 0来结束\\
-esc推出vi编辑器\\
-:wq保存并推出 write quit\\
-ls查看当前文件夹有什么文件ls - list directory contents
-
-\section{文本编辑器}
-
-\section{C++编译器}
-命令行使用下面的命令来检查您的系统上是否安装了gcc\\
-g++ -v
-g++ 编译器C++\\
-使用 -o 选项指定可执行程序的文件名\\
-g++ hello.cpp -o hello\\
-./richard 执行编译器编译产生的二进制文件\\
-指定使用C++14来编译\\
-g++ -std=c++14 cpp.cpp -o cpp 
-
-\subsection{g++常用命令选项}
--o\\
-file生成指定的输出文件,用在生成可执行文件时。\\
-C++ 中的分号\&语句块\\
-编辑编译执行C++程序
-
-\chapter{vi编辑器}
-yy->p复制粘贴一行
-dd删除当前行
-
-\chapter{基本语法}
-\section{代码介绍}
-\begin{lstlisting}[language=C++]
-#include <iostream>
-using namespace std;
-int main() {
-	cout<<"hello"<<endl;
-	return 0;
-}
-\end{lstlisting}
-C++头文件<iostream>\\
-using namespace std; 告诉编译器使用std命名空间。\\
-int main()是主函数，程序从这里开始执行。\\
-cout<<"Hello World"; 会在屏幕上显示消息 "Hello World"。\\
-下一行 return 0; 终止 main( )函数，并向调用进程返回值 0。\\
-在 C++ 中，分号是语句结束符。也就是说，每个语句必须以分号结束。它表明一个逻辑实体的结束。
-
-\section{标识符}
-
-\section{关键字}
-
-\chapter{注释}
-\section{单行多行注释}
-C++ 支持单行注释和多行注释。注释中的所有字符会被 C++ 编译器忽略。\\
-// - 一般用于单行注释。\\
-/* ... */ - 一般用于多行注释。
-
-\chapter{变量}
+\chapter{程序基本概念}
 \section{数据类型}
 使用编程语言进行编程时，需要用到各种变量来存储各种信息。变量保留的是它所存储的值的内存位置。这意味着，当您创建一个变量时，就会在内存中保留一些空间。\\
 您可能需要存储各种数据类型（比如字符型、宽字符型、整型、浮点型、双浮点型、布尔型等）的信息，操作系统会根据变量的数据类型，来分配内存和决定在保留内存中存储什么。
@@ -285,50 +218,34 @@ int blockScope(){
 	return 0;
 }
 \end{lstlisting}
-
-\chapter{常量}
-\section{\#define预处理器}
-使用 \#define 预处理器定义常量
+\section{代码介绍}
 \begin{lstlisting}[language=C++]
-// #define 预处理器定义常量
-#define LENGTH 3
-#define WIDTH 2
-
-int areaDefine(){
-	int area;
-	area = LENGTH * WIDTH;
-	cout<<"area = "<<area<<endl;
+#include <iostream>
+using namespace std;
+int main() {
+	cout<<"hello"<<endl;
 	return 0;
 }
 \end{lstlisting}
+C++头文件<iostream>\\
+using namespace std; 告诉编译器使用std命名空间。\\
+int main()是主函数，程序从这里开始执行。\\
+cout<<"Hello World"; 会在屏幕上显示消息 "Hello World"。\\
+下一行 return 0; 终止 main( )函数，并向调用进程返回值 0。\\
+在 C++ 中，分号是语句结束符。也就是说，每个语句必须以分号结束。它表明一个逻辑实体的结束。
 
-\section{const 关键字}
-\begin{lstlisting}[language=C++]
-// 使用 const 前缀声明指定类型的常量
-int constConstant(){
-	const int LENGTH_ = 3;
-	const int WIDTH_ = 2;
-	int area;
-	area = LENGTH_ * WIDTH_;
-	cout<<"area = "<<area<<endl; 
-	return 0;
-}
-\end{lstlisting}
+\section{标识符}
 
-\chapter{修饰符类型}
-\begin{lstlisting}[language=C++]
-int modifier(){
-	short int i; // 有符号短整数
-	short unsigned int j;
-	j = 50000;
-	i = j;
-	cout<<"j = "<<j<<endl;	
-	cout<<"i = "<<i<<endl;	
-	return 0;
-}
-\end{lstlisting}
+\section{关键字}
 
-\chapter{运算符}
+\chapter{基本数据类型}
+
+\chapter{程序基本语句}
+
+\chapter{基本运算}
+
+\chapter{数学库常用函数}
+
 \section{算术运算符}
 \begin{lstlisting}[language=C++]
 // 算术运算符
@@ -439,6 +356,54 @@ int logicalOperator(){
 	if (!(a&&b)){
 		cout<<"!(a&&b)条件为 true"<<endl;
 	}
+	return 0;
+}
+\end{lstlisting}
+
+\chapter{注释}
+\section{单行多行注释}
+C++ 支持单行注释和多行注释。注释中的所有字符会被 C++ 编译器忽略。\\
+// - 一般用于单行注释。\\
+/* ... */ - 一般用于多行注释。
+
+\chapter{常量}
+\section{\#define预处理器}
+使用 \#define 预处理器定义常量
+\begin{lstlisting}[language=C++]
+// #define 预处理器定义常量
+#define LENGTH 3
+#define WIDTH 2
+
+int areaDefine(){
+	int area;
+	area = LENGTH * WIDTH;
+	cout<<"area = "<<area<<endl;
+	return 0;
+}
+\end{lstlisting}
+
+\section{const 关键字}
+\begin{lstlisting}[language=C++]
+// 使用 const 前缀声明指定类型的常量
+int constConstant(){
+	const int LENGTH_ = 3;
+	const int WIDTH_ = 2;
+	int area;
+	area = LENGTH_ * WIDTH_;
+	cout<<"area = "<<area<<endl; 
+	return 0;
+}
+\end{lstlisting}
+
+\chapter{修饰符类型}
+\begin{lstlisting}[language=C++]
+int modifier(){
+	short int i; // 有符号短整数
+	short unsigned int j;
+	j = 50000;
+	i = j;
+	cout<<"j = "<<j<<endl;	
+	cout<<"i = "<<i<<endl;	
 	return 0;
 }
 \end{lstlisting}
