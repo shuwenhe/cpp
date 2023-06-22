@@ -234,9 +234,16 @@ int logicalOperator(){
 	return 0;
 }
 
+int gaussSum(){
+	int sum = 0;
+	for (int i = 1; i <= 100; i++){
+		sum += i;
+	}
+	cout<<"gauss sum = "<<sum<<endl;
+	return 0;
+}
 
 int main() {
-//	logicalOperator();
-	forSum();
+	gaussSum();
 }
 
