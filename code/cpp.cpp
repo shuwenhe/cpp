@@ -236,7 +236,7 @@ int logicalOperator(){
 
 
 int main() {
-	logicalOperator();
-	
+//	logicalOperator();
+	forSum();
 }
 
