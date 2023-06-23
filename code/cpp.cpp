@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 
@@ -255,16 +256,29 @@ bool isPrime(int num) {
 }
 
 int prime(){
-	bool b = isPrime(7);
+	ifstream fin("prime.in");
+	ofstream fout("prime.out");
+
+	int a;
+	fin>>a;
+	bool b;
+	b = isPrime(a);
 	if (b == 1){
-		cout<<"b是素数 "<<endl;
+		cout<<a<<"是素数 "<<endl;
 	}else{
-		cout<<"b不是素数 "<<endl;
+		cout<<a<<"不是素数 "<<endl;
 	}
+
+	fout<<b<<endl;
+
+	fin.close();
+	fout.close();
+	
 	return 0;
 }
 
 int main() {
 	prime();
+	return 0;
 }
 
