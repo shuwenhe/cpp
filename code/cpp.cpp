@@ -243,7 +243,28 @@ int gaussSum(){
 	return 0;
 }
 
+// isPrime 判断是否素数
+bool isPrime(int num) {
+    if (num < 2)
+        return false;
+    for (int i = 2; i * i <= num; ++i) {
+        if (num % i == 0)
+            return false;
+    }
+    return true;
+}
+
+int prime(){
+	bool b = isPrime(7);
+	if (b == 1){
+		cout<<"b是素数 "<<endl;
+	}else{
+		cout<<"b不是素数 "<<endl;
+	}
+	return 0;
+}
+
 int main() {
-	gaussSum();
+	prime();
 }
 
