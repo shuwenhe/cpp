@@ -670,6 +670,71 @@ int modifier(){
 \chapter{数组}
 
 \chapter{STL}
+\chapter{SLT}
+\section{vector向量}
+\subsection{stl\_vector.h}
+\begin{lstlisting}[language=C++]
+C:\Program Files\CodeBlocks\MinGW\lib\gcc\x86_64-w64-mingw32\8.1.0
+\include\c++\bits\stl_vector.h
+\end{lstlisting}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    // 创建一个整数向量
+    vector<int> numbers;
+
+    // 向向量中添加元素
+    numbers.push_back(1);
+    numbers.push_back(2);
+    numbers.push_back(3);
+
+    // 访问和修改向量中的元素
+    cout << "First element: " << numbers[0] << endl;
+    cout << "Second element: " << numbers[1] << endl;
+
+    numbers[2] = 4;
+
+    // 遍历向量中的元素
+    cout << "All elements: ";
+    for (int i = 0; i < numbers.size(); ++i) {
+        cout << numbers[i] << " ";
+    }
+    cout << endl;
+
+    // 使用迭代器遍历向量中的元素
+    cout << "All elements (using iterator): ";
+    for (vector<int>::iterator it = numbers.begin(); it != numbers.end(); ++it) {
+        cout << *it << " ";
+    }
+    cout << endl;
+
+    // 删除向量中的最后一个元素
+    numbers.pop_back();
+
+    // 检查向量是否为空
+    if (numbers.empty()) {
+        cout << "Vector is empty" << endl;
+    } else {
+        cout << "Vector is not empty" << endl;
+    }
+
+    // 清空向量
+    numbers.clear();
+
+    // 检查向量是否为空
+    if (numbers.empty()) {
+        cout << "Vector is empty" << endl;
+    } else {
+        cout << "Vector is not empty" << endl;
+    }
+
+    return 0;
+}
+\end{lstlisting}
 
 \chapter{class类}
 在C++中，`class`关键字用于定义一个类。类是一种用户自定义的数据类型，用于封装数据和操作。类可以包含成员变量（属性）和成员函数（方法），

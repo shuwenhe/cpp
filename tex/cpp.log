@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.1 (MiKTeX 23.4) (format=lualatex 2023.6.13)  11 JUL 2023 09:36
+This is LuaHBTeX, Version 1.16.1 (MiKTeX 23.4) (format=lualatex 2023.6.13)  11 JUL 2023 10:01
  restricted system commands enabled.
 **cpp.tex
 (./cpp.tex
@@ -1190,7 +1190,7 @@ egular.luc) [2
 \openout5 = cpp.toc
  [5]
 第一章
-<cpp.png, id=344, 1256.695pt x 3385.64874pt>
+<cpp.png, id=339, 1256.695pt x 3385.64874pt>
 File: cpp.png Graphic file (type png)
 <use cpp.png>
 Package luatex.def Info: cpp.png  used on input line 100.
@@ -1527,7 +1527,31 @@ Removing  `ltj.listings_unicode' from `process_input_buffer'. [38
 第二十四章
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'. [42
+
+]
+Overfull \hbox (99.50906pt too wide) in paragraph at lines 710--711
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.91003pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.91003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.91003pt}.
+
+[43]
+第二十五章
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' in `process_input_buffer'. [44
 
 ]
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
@@ -1542,13 +1566,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.91003pt}.
 
-[43]
-Overfull \hbox (13.10818pt too wide) in paragraph at lines 749--750
+[45]
+Overfull \hbox (13.10818pt too wide) in paragraph at lines 814--815
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
-Overfull \hbox (16.6153pt too wide) in paragraph at lines 770--774
+Overfull \hbox (16.6153pt too wide) in paragraph at lines 835--839
 |\LTJY3/SimSun(0)/m/n/12 在 \TU/lmr/m/n/12 ‘main()‘|\LTJY3/SimSun(0)/m/n/1
 2 函 |数 |中 [] |首 |先 |使 |用 |默 |认 |构 |造 |函 |数 |创 |建 
 |了 |一 |个 \TU/lmr/m/n/12 ‘MyClass‘|\LTJY3/SimSun(0)/m/n/12 对 |象 \T
@@ -1564,11 +1588,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.91003pt}.
 
-[44]
+[46]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Overfull \hbox (13.10818pt too wide) in paragraph at lines 800--801
+Overfull \hbox (13.10818pt too wide) in paragraph at lines 865--866
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -1580,7 +1604,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.91003pt}.
 
-[45]
+[47]
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1590,7 +1614,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.91003pt}.
 
-[46]
+[48]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.91003pt, for example:
@@ -1599,12 +1623,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.91003pt}.
 
-[47] (./cpp.aux)
+[49] (./cpp.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package rerunfilecheck Warning: File `cpp.out' has changed.
@@ -1612,83 +1633,23 @@ Package rerunfilecheck Warning: File `cpp.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `cpp.out':
-(rerunfilecheck)             Before: 6EA51CEAF7E9720E44F054F39D3C9DD7;7555
-(rerunfilecheck)             After:  9DCB72A58CD49BB2C4933BD661D0A3E6;7461.
+(rerunfilecheck)             Before: 9DCB72A58CD49BB2C4933BD661D0A3E6;7461
+(rerunfilecheck)             After:  C509E8BAE69C4483413CE992C493A7D3;7853.
 )
 
 Here is how much of LuaTeX's memory you used:
- 22266 strings out of 478278
+ 22341 strings out of 478278
  244342,1977958 words of node,token memory allocated
  885 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 129 attribute, 67 glue_spe
 c, 20 attribute_list, 2 write, 10 user_defined nodes
-   avail lists: 1:9,2:61309,3:485,4:4272,5:1036,6:78,7:4402,8:15,9:5194,10:13,11
+   avail lists: 1:9,2:61309,3:485,4:4826,5:1117,6:84,7:4402,8:15,9:5388,10:13,11
 :28,12:1
- 40957 multiletter control sequences out of 65536+600000
+ 40996 multiletter control sequences out of 65536+600000
  111 fonts using 145397527 bytes
  88i,12n,111p,2101b,885s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-warning  (pdf backend): unreferenced destination with name 'section.0.25.2'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.25.1'
-
-warning  (pdf backend): unreferenced destination with name 'chapter.0.25'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.22.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.20.2'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.20.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.18.3'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.18.2'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.14.3'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.14.2'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.14.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.5.4'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.5.3'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.5.2'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.5.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.3.9'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.3.8'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.3.7'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.3.6'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.3.5'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.3.4'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.3.3'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.3.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.0.3.1.
-2.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.0.3.1.
-2.1'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.0.3.1.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.0.3.1.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.0.3.1'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.0.2.4.1'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.0.2.2.1'
+warning  (pdf backend): unreferenced destination with name 'section.0.24.2'
 <//?/c:/ctex/miktex/fonts/opentype/public/lm/lmroman12-italic.otf><//?/c:/ctex/m
 iktex/fonts/opentype/public/lm/lmromanslant12-regular.otf><C:/Windows/Fonts/simk
 ai.ttf><//?/c:/ctex/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><C:/Windo
@@ -1699,9 +1660,9 @@ ar.otf><C:/Windows/Fonts/simsun.ttc><//?/c:/ctex/miktex/fonts/opentype/public/lm
 type1/public/amsfonts/cm/cmr12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmr8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on cpp.pdf (47 pages, 498911 bytes).
+Output written on cpp.pdf (49 pages, 511691 bytes).
 
-PDF statistics: 1067 PDF objects out of 1200 (max. 8388607)
- 563 named destinations out of 1000 (max. 131072)
- 497 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1106 PDF objects out of 1200 (max. 8388607)
+ 599 named destinations out of 1000 (max. 131072)
+ 489 words of extra memory for PDF output out of 10000 (max. 100000000)
 

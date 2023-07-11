@@ -56,6 +56,9 @@
 \contentsline {section}{\numberline {1}CSP-J（普及组）2022年T1乘方(pow)}{39}{section.0.21.1}%
 \contentsline {chapter}{\numberline {第二十二章\hspace {.3em}}数组}{40}{chapter.0.22}%
 \contentsline {chapter}{\numberline {第二十三章\hspace {.3em}}STL}{41}{chapter.0.23}%
-\contentsline {chapter}{\numberline {第二十四章\hspace {.3em}}class类}{42}{chapter.0.24}%
-\contentsline {section}{\numberline {1}构造函数}{43}{section.0.24.1}%
-\contentsline {section}{\numberline {2}拷贝构造函数}{45}{section.0.24.2}%
+\contentsline {chapter}{\numberline {第二十四章\hspace {.3em}}SLT}{42}{chapter.0.24}%
+\contentsline {section}{\numberline {1}vector向量}{42}{section.0.24.1}%
+\contentsline {subsection}{\numberline {1.1}stl\_vector.h}{42}{subsection.0.24.1.1}%
+\contentsline {chapter}{\numberline {第二十五章\hspace {.3em}}class类}{44}{chapter.0.25}%
+\contentsline {section}{\numberline {1}构造函数}{45}{section.0.25.1}%
+\contentsline {section}{\numberline {2}拷贝构造函数}{47}{section.0.25.2}%
