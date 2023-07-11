@@ -96,9 +96,63 @@ swh
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{C++基础思维导图}
-\includegraphics[scale=0.15]{cpp.png}
+\chapter{流程控制语句}
+\section{for}
+\subsection{template模板}
+计算$1+2+3+\cdots+100 = $
+\begin{lstlisting}[language=C++]
+#include <iostream>
 
+using namespace std;
+
+int main(){
+	int sum = 0;
+	for(int i = 1;i <= 100;i++){
+		sum += i;
+	}
+	cout<<"sum = "<<sum<<endl;
+	return 0;
+}
+\end{lstlisting}
+
+\subsection{sum求和}
+for循环求和1+2+3+...+100\\
+\begin{lstlisting}[language=C++]
+int forSum(){
+    int sum = 0;
+    for (int i = 1; i <= 100; i++) {
+        sum += i;
+    }
+    cout << "for sum=" << sum << endl;
+    return 0;
+}
+\end{lstlisting}
+
+\section{if-else}
+\begin{lstlisting}[language=C++]
+// isPrime 判断是否素数
+bool isPrime(int num) {
+    if (num < 2)
+        return false;
+    for (int i = 2; i * i <= num; ++i) {
+        if (num % i == 0)
+            return false;
+    }
+    return true;
+}
+
+int prime(){
+	bool b = isPrime(7);
+	if (b == 1){
+		cout<<"b是素数 "<<endl;
+	}else{
+		cout<<"b不是素数 "<<endl;
+	}
+	return 0;
+}
+\end{lstlisting}
+
+\chapter{bit位运算}
 \section{bit位运算}
 $1\ll i$等价于 $2^i$。
 \begin{lstlisting}[language=C++]
@@ -122,22 +176,6 @@ int main(){
     fout<<n;
 	fin.close();
 	fout.close();
-	return 0;
-}
-\end{lstlisting}
-\section{for循环模板}
-计算$1+2+3+\cdots+100 = $
-\begin{lstlisting}[language=C++]
-#include <iostream>
-
-using namespace std;
-
-int main(){
-	int sum = 0;
-	for(int i = 1;i <= 100;i++){
-		sum += i;
-	}
-	cout<<"sum = "<<sum<<endl;
 	return 0;
 }
 \end{lstlisting}
@@ -403,58 +441,6 @@ cout<<"Hello World"; 会在屏幕上显示消息 "Hello World"。\\
 \section{关键字}
 
 \chapter{基本数据类型}
-
-\chapter{程序基本语句}
-\section{控制语句}
-\section{for循环}
-// 高斯求和公式求和1+2+3+...+100
-\begin{lstlisting}[language=C++]
-#include <iostream>
-using namespace std;
-int main() {
-    int sum = 0;
-    sum = (1+100)*100/2;
-    cout << "gauss sum=" << sum << endl;
-    return 0;
-}
-\end{lstlisting}
-
-\section{}
-for循环求和1+2+3+...+100\\
-\begin{lstlisting}[language=C++]
-int forSum(){
-    int sum = 0;
-    for (int i = 1; i <= 100; i++) {
-        sum += i;
-    }
-    cout << "for sum=" << sum << endl;
-    return 0;
-}
-\end{lstlisting}
-
-\section{if-else}
-\begin{lstlisting}[language=C++]
-// isPrime 判断是否素数
-bool isPrime(int num) {
-    if (num < 2)
-        return false;
-    for (int i = 2; i * i <= num; ++i) {
-        if (num % i == 0)
-            return false;
-    }
-    return true;
-}
-
-int prime(){
-	bool b = isPrime(7);
-	if (b == 1){
-		cout<<"b是素数 "<<endl;
-	}else{
-		cout<<"b不是素数 "<<endl;
-	}
-	return 0;
-}
-\end{lstlisting}
 
 \chapter{基本运算}
 

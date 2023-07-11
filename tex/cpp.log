@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.1 (MiKTeX 23.4) (format=lualatex 2023.6.13)  11 JUL 2023 10:01
+This is LuaHBTeX, Version 1.16.1 (MiKTeX 23.4) (format=lualatex 2023.6.13)  11 JUL 2023 10:23
  restricted system commands enabled.
 **cpp.tex
 (./cpp.tex
@@ -1190,15 +1190,14 @@ egular.luc) [2
 \openout5 = cpp.toc
  [5]
 第一章
-<cpp.png, id=339, 1256.695pt x 3385.64874pt>
-File: cpp.png Graphic file (type png)
-<use cpp.png>
-Package luatex.def Info: cpp.png  used on input line 100.
-(luatex.def)             Requested size: 188.49611pt x 507.82541pt.
 LaTeX Font Info:    Font shape `LTJY3/SimSun(0)/bx/n' in size <17.28> not avail
 able
 (Font)              Font shape `LTJY3/SimSun(0)/b/n' tried instead on input lin
-e 102.
+e 100.
+LaTeX Font Info:    Font shape `LTJY3/SimSun(0)/bx/n' in size <14.4> not availa
+ble
+(Font)              Font shape `LTJY3/SimSun(0)/b/n' tried instead on input lin
+e 101.
 (C:/CTEX/MiKTeX/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
@@ -1207,17 +1206,17 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 (C:/CTEX/MiKTeX/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-) [6
-
-<./cpp.png>]
+)
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
-LaTeX Font Info:    Font shape `LTJY3/SimSun(0)/bx/n' in size <14.4> not availa
-ble
-(Font)              Font shape `LTJY3/SimSun(0)/b/n' tried instead on input lin
-e 110.
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' in `process_input_buffer'. [6
+
+]
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
@@ -1235,7 +1234,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [7]
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
-Overfull \hbox (56.30313pt too wide) in paragraph at lines 147--219
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.91003pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.91003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.91003pt}.
+
+[8]
+第二章
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'. [9
+
+]
+Overfull \hbox (56.30313pt too wide) in paragraph at lines 198--270
 |\LTJY3/SimSun(0)/m/n/12 作 |为 |幼 |儿 |园 |高 |质 |量 |小 |朋 |友 
 [] |你 |希 |望 |让|   [] |的 |糖 |果 |数 |量 []|   [] [] []
  []
@@ -1248,40 +1267,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.91003pt}.
 
-[8]
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.91003pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.91003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.91003pt}.
-
-[9]
-Removing  `ltj.listings_unicode' from `process_input_buffer'.
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.91003pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.91003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.91003pt}.
-
 [10]
-第二章
-[11
-
-]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.91003pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.91003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.91003pt}.
+
+[11]
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
@@ -1296,19 +1294,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.91003pt}.
 
 [12]
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.
+第三章
+[13
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.91003pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.91003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.91003pt}.
-
-[13]
+]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
@@ -1317,9 +1306,6 @@ Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' in `process_input_buffer'.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.91003pt, for example:
@@ -1329,6 +1315,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.91003pt}.
 
 [14]
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' in `process_input_buffer'.
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1339,11 +1328,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.91003pt}.
 
 [15]
-第三章
-[16
-
-]
-第四章
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
@@ -1351,12 +1335,19 @@ Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'. [17
-
-]
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.91003pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.91003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.91003pt}.
+
+[16]
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1366,7 +1357,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.91003pt}.
 
-[18]
+[17]
+第四章
+[18
+
+]
 第五章
 [19
 
@@ -1407,12 +1402,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Overfull \hbox (20.30826pt too wide) in paragraph at lines 491--492
+Overfull \hbox (20.30826pt too wide) in paragraph at lines 490--491
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (56.30862pt too wide) in paragraph at lines 492--494
+Overfull \hbox (56.30862pt too wide) in paragraph at lines 491--493
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -1534,7 +1529,7 @@ Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'. [42
 
 ]
-Overfull \hbox (99.50906pt too wide) in paragraph at lines 710--711
+Overfull \hbox (99.50906pt too wide) in paragraph at lines 709--710
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -1567,12 +1562,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.91003pt}.
 
 [45]
-Overfull \hbox (13.10818pt too wide) in paragraph at lines 814--815
+Overfull \hbox (13.10818pt too wide) in paragraph at lines 813--814
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
-Overfull \hbox (16.6153pt too wide) in paragraph at lines 835--839
+Overfull \hbox (16.6153pt too wide) in paragraph at lines 834--838
 |\LTJY3/SimSun(0)/m/n/12 在 \TU/lmr/m/n/12 ‘main()‘|\LTJY3/SimSun(0)/m/n/1
 2 函 |数 |中 [] |首 |先 |使 |用 |默 |认 |构 |造 |函 |数 |创 |建 
 |了 |一 |个 \TU/lmr/m/n/12 ‘MyClass‘|\LTJY3/SimSun(0)/m/n/12 对 |象 \T
@@ -1592,7 +1587,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Overfull \hbox (13.10818pt too wide) in paragraph at lines 865--866
+Overfull \hbox (13.10818pt too wide) in paragraph at lines 864--865
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -1633,23 +1628,21 @@ Package rerunfilecheck Warning: File `cpp.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `cpp.out':
-(rerunfilecheck)             Before: 9DCB72A58CD49BB2C4933BD661D0A3E6;7461
-(rerunfilecheck)             After:  C509E8BAE69C4483413CE992C493A7D3;7853.
+(rerunfilecheck)             Before: AC5E432541B7E481AAF156D6CFC137F7;7725
+(rerunfilecheck)             After:  3CCDE61353F05D3E49608655005F9044;7838.
 )
 
 Here is how much of LuaTeX's memory you used:
- 22341 strings out of 478278
- 244342,1977958 words of node,token memory allocated
+ 22332 strings out of 478278
+ 244349,1977958 words of node,token memory allocated
  885 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 129 attribute, 67 glue_spe
 c, 20 attribute_list, 2 write, 10 user_defined nodes
-   avail lists: 1:9,2:61309,3:485,4:4826,5:1117,6:84,7:4402,8:15,9:5388,10:13,11
+   avail lists: 1:6,2:61309,3:485,4:4826,5:1085,6:84,7:4347,8:15,9:5388,10:13,11
 :28,12:1
- 40996 multiletter control sequences out of 65536+600000
+ 40992 multiletter control sequences out of 65536+600000
  111 fonts using 145397527 bytes
  88i,12n,111p,2101b,885s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-warning  (pdf backend): unreferenced destination with name 'section.0.24.2'
 <//?/c:/ctex/miktex/fonts/opentype/public/lm/lmroman12-italic.otf><//?/c:/ctex/m
 iktex/fonts/opentype/public/lm/lmromanslant12-regular.otf><C:/Windows/Fonts/simk
 ai.ttf><//?/c:/ctex/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><C:/Windo
@@ -1660,9 +1653,9 @@ ar.otf><C:/Windows/Fonts/simsun.ttc><//?/c:/ctex/miktex/fonts/opentype/public/lm
 type1/public/amsfonts/cm/cmr12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmr8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on cpp.pdf (49 pages, 511691 bytes).
+Output written on cpp.pdf (49 pages, 391076 bytes).
 
-PDF statistics: 1106 PDF objects out of 1200 (max. 8388607)
- 599 named destinations out of 1000 (max. 131072)
- 489 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1112 PDF objects out of 1200 (max. 8388607)
+ 598 named destinations out of 1000 (max. 131072)
+ 505 words of extra memory for PDF output out of 10000 (max. 100000000)
 
