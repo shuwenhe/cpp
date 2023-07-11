@@ -96,6 +96,36 @@ Richard He \& Ritchie He
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{include头文件}
+\section{iostream}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	cout<<"hello,world!"<<endl;
+}
+\end{lstlisting}
+
+\section{fstream}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main(){
+	ifstream fin("number.in");
+	ofstream fout("number.out");
+	int n;
+	fin>>n;
+	fin.close();
+	fout.close();
+	return 0;
+}
+\end{lstlisting}
+
 \chapter{variable变量}
 \section{局部变量}
 局部变量:在函数内部声明的变量。它们只能被函数内部语句使用。
@@ -134,6 +164,24 @@ int main(){
 	return 0;
 }
 \end{lstlisting}
+
+\chapter{array数组}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	int nums[3] = {1,2,3};
+	for(int i = 0; i < sizeof(nums)/sizeof(nums[0]);i++){
+		cout<<nums[i]<<endl;
+	}
+	return 0;
+}
+\end{lstlisting}
+
+\chapter{vector向量}
+
 
 \chapter{string字符串}
 \section{CSP-J-2019-01number数字游戏}
@@ -241,25 +289,6 @@ $1\ll i$等价于 $2^i$。
 \begin{lstlisting}[language=C++]
 for(int i = 30;i >= 0; i--){
 		int power = 1 << i;
-}
-\end{lstlisting}
-\section{include}
-\subsection{fstream}
-\begin{lstlisting}[language=C++]
-#include <iostream>
-#include <fstream>
-
-using namespace std;
-
-int main(){
-	ifstream fin("power.in");
-	ofstream fout("power.out");
-	int n;
-	fin>>n;
-    fout<<n;
-	fin.close();
-	fout.close();
-	return 0;
 }
 \end{lstlisting}
 
@@ -382,28 +411,6 @@ int main(){
 }
 \end{lstlisting}
 
-
-\section{标识符}
-
-\section{关键字}
-
-\chapter{基本数据类型}
-
-\chapter{基本运算}
-
-\chapter{数学库常用函数}
-
-\chapter{结构化程序设计}
-
-\chapter{数组}
-
-
-
-\chapter{函数与递归}
-
-\chapter{结构体与联合体}
-
-\chapter{指针类型}
 
 \chapter{文件及基本读写}
 \section{fstream}
