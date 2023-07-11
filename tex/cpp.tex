@@ -221,7 +221,51 @@ int main() {
 \chapter{运算符}
 \section{算术运算符}
 \subsection{\%mod取模}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <fstream>
 
+using namespace std;
+
+int main(){
+	ifstream fin("mod.in");
+	ofstream fout("mod.out");
+	
+	int num;
+	fin>>num;
+	if (num < 2){
+		fout<<-1;
+		return 0;
+	}
+	for(int i = 2; i * i <= num;i++){
+		if(num % i == 0){ // i整除num
+			fout<<-1;
+			return 0; 
+		}
+		fout<<1;
+	}
+
+}
+\end{lstlisting}
+
+\section{位运算符}
+\subsection{<<左移}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main(){
+	ifstream fin("bit.in");
+	ofstream fout("bit.out");
+	int i,num;
+	for(fin>>i; i >= 0;i--){
+		num = 1<<i; 
+		fout<<num<<endl;
+	}
+}
+\end{lstlisting}
 
 \chapter{array数组}
 \section{sizeof}
@@ -312,14 +356,7 @@ int main(){
 }
 \end{lstlisting}
 
-\chapter{bit位运算}
-\section{bit位运算}
-$1\ll i$等价于 $2^i$。
-\begin{lstlisting}[language=C++]
-for(int i = 30;i >= 0; i--){
-		int power = 1 << i;
-}
-\end{lstlisting}
+
 
 \section{if else}
 \subsection{CSP-J-2021-01-candy分糖果}
