@@ -5,16 +5,16 @@
 \contentsline {chapter}{\numberline {第二章\hspace {.3em}}variable变量}{6}{chapter.0.2}%
 \contentsline {section}{\numberline {1}局部变量}{6}{section.0.2.1}%
 \contentsline {section}{\numberline {2}全局变量}{6}{section.0.2.2}%
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}array数组}{8}{chapter.0.3}%
-\contentsline {section}{\numberline {1}sizeof}{8}{section.0.3.1}%
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}vector向量}{9}{chapter.0.4}%
-\contentsline {section}{\numberline {1}size}{9}{section.0.4.1}%
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}string字符串}{10}{chapter.0.5}%
-\contentsline {section}{\numberline {1}CSP-J-2019-01number数字游戏}{10}{section.0.5.1}%
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}流程控制语句}{12}{chapter.0.6}%
-\contentsline {section}{\numberline {1}for}{12}{section.0.6.1}%
-\contentsline {subsection}{\numberline {1.1}template模板}{12}{subsection.0.6.1.1}%
-\contentsline {section}{\numberline {2}if-else}{12}{section.0.6.2}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}流程控制语句}{8}{chapter.0.3}%
+\contentsline {section}{\numberline {1}for}{8}{section.0.3.1}%
+\contentsline {subsection}{\numberline {1.1}template模板}{8}{subsection.0.3.1.1}%
+\contentsline {section}{\numberline {2}if-else}{8}{section.0.3.2}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}array数组}{10}{chapter.0.4}%
+\contentsline {section}{\numberline {1}sizeof}{10}{section.0.4.1}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}vector向量}{11}{chapter.0.5}%
+\contentsline {section}{\numberline {1}size}{11}{section.0.5.1}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}string字符串}{12}{chapter.0.6}%
+\contentsline {section}{\numberline {1}CSP-J-2019-01number数字游戏}{12}{section.0.6.1}%
 \contentsline {chapter}{\numberline {第七章\hspace {.3em}}bit位运算}{14}{chapter.0.7}%
 \contentsline {section}{\numberline {1}bit位运算}{14}{section.0.7.1}%
 \contentsline {section}{\numberline {2}if else}{14}{section.0.7.2}%
