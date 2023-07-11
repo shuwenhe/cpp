@@ -73,7 +73,7 @@
 %ShuwenHe\\
 %何书文\\
 %1201220707@pku.edu.cn
-swh
+Richard He \& Ritchie He
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -96,10 +96,106 @@ swh
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{variable变量}
+\section{局部变量}
+局部变量:在函数内部声明的变量。它们只能被函数内部语句使用。
+\begin{lstlisting}[language=C++]
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	int a,b,sum; // 局部变量声明
+	a = 1,b = 2; // 实际初始化
+	sum = a + b;
+	cout<<"sum = "<<sum<<endl;
+	return 0;
+}
+\end{lstlisting}
+
+\section{全局变量}
+局部变量和全局变量的名称可以相同，但是在函数内，局部变量的值会覆盖全局变量的值。
+\begin{lstlisting}[language=C++]
+#include <iostream>
+
+using namespace std;
+
+int i = 3;
+
+int global_variable(){
+	cout<<"global_i = "<<i<<endl;
+	return 0;
+}
+
+int main(){
+	global_variable();
+	int i = 5;
+	cout<<"main_i = "<<i<<endl;
+	return 0;
+}
+\end{lstlisting}
+
+\chapter{string字符串}
+\section{CSP-J-2019-01number数字游戏}
+【题目描述】\\
+小$K$同学向小$P$同学发送了一个长度为8的01字符串来玩数字游戏，小$P$同学想要知道字符串中究竟有多少个1。\\
+注意：01字符串为每一个字符是0或者1的字符串，如“101”（不含双引号）为一个长度为3的01字符串。\\
+【输入格式】\\
+输入文件名为number.in\\
+输入文件只有一行，一个长度为8的01字符串$s$。\\
+【输出格式】\\
+输出文件名为number.out\\
+输出文件只有一行，包含一个整数，即01字符串中字符1的个数。\\
+【输入输出样例1】\\
+\begin{tabular}{|c|c|}
+\hline
+number.in & number.out\\
+\hline
+00010100 & 2\\
+\hline
+\end{tabular}\\
+【输入输出样例2】\\
+\begin{tabular}{|c|c|}
+\hline
+number.in & number.out\\
+\hline
+11111111 & 8\\
+\hline
+\end{tabular}\\
+解:\\
+\includegraphics[width=0.5\textwidth]{number.png}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <fstream>
+#include <string>
+
+using namespace std;
+
+int main(){
+	ifstream fin("number.in");
+	ofstream fout("number.out");
+
+	string s;
+	fin>>s;
+	int count = 0;
+
+	for(int i = 0; i < s.length();i++){
+		if(s[i] == '1'){
+			count++;
+		}
+	}
+	fout<<count;
+
+	fin.close();
+	fout.close();
+	return 0;
+}
+\end{lstlisting}
+
 \chapter{流程控制语句}
 \section{for}
 \subsection{template模板}
-计算$1+2+3+\cdots+100 = $
+计算$1+2+3+\cdots+100 = ?$
 \begin{lstlisting}[language=C++]
 #include <iostream>
 
@@ -112,19 +208,6 @@ int main(){
 	}
 	cout<<"sum = "<<sum<<endl;
 	return 0;
-}
-\end{lstlisting}
-
-\subsection{sum求和}
-for循环求和1+2+3+...+100\\
-\begin{lstlisting}[language=C++]
-int forSum(){
-    int sum = 0;
-    for (int i = 1; i <= 100; i++) {
-        sum += i;
-    }
-    cout << "for sum=" << sum << endl;
-    return 0;
 }
 \end{lstlisting}
 
@@ -299,142 +382,6 @@ int main(){
 }
 \end{lstlisting}
 
-\chapter{程序基本概念}
-\section{数据类型}
-使用编程语言进行编程时，需要用到各种变量来存储各种信息。变量保留的是它所存储的值的内存位置。这意味着，当您创建一个变量时，就会在内存中保留一些空间。\\
-您可能需要存储各种数据类型（比如字符型、宽字符型、整型、浮点型、双浮点型、布尔型等）的信息，操作系统会根据变量的数据类型，来分配内存和决定在保留内存中存储什么。
-
-\subsection{基本的内置类型}
-\begin{table}[h]
-    \centering
-    \caption{几种基本的 C++ 数据类型}
-    \label{tab:example}
-    \begin{tabular}{|c|c|}
-    \hline
-    \textbf{类型} & \textbf{关键字}\\
-    \hline
-    布尔型 & bool\\
-    \hline
-    字符型 & char\\
-    \hline
-    整型 & int\\
-    \hline
-    浮点型 & float\\
-    \hline
-    双浮点型 & double\\
-    \hline
-    无类型 & void\\
-    \hline
-    宽字符型 & wchar\_t\\
-    \hline
-    \end{tabular}
-\end{table}
-一些基本类型可以使用一个或多个类型修饰符进行修饰：\\
-signed\\
-unsigned\\
-short\\
-long
-
-\subsection{自定义数据类型}
-\subsubsection{struct结构体}
-结构体是一种自定义数据类型，可以用来存储不同类型的数据成员。结构体可以包含多个成员变量，每个成员变量可以有不同的数据类型。结构体的定义使用关键字struct，并通过花括号括起来列出成员变量。
-\begin{lstlisting}[language=C++]
-struct Person {
-    std::string name;
-    int age;
-    double height;
-};
-\end{lstlisting}
-上述示例定义了一个名为Person的结构体，包含三个成员变量：name（字符串类型）、age（整数类型）和height（浮点数类型）。
-
-\subsubsection{class类}
-类是一种更高级的自定义数据类型，它允许定义数据成员和成员函数，并将它们封装在一个单独的实体中。类可以用于实现面向对象编程的概念，如封装、继承和多态。\\
-类的定义使用关键字class，并通过花括号括起来列出成员变量和成员函数。
-\begin{lstlisting}[language=C++]
-class Circle {
-private:
-    double radius;
-
-public:
-    Circle(double r) {
-        radius = r;
-    }
-
-    double getArea() {
-        return 3.14159 * radius * radius;
-    }
-};
-\end{lstlisting}
-上述示例定义了一个名为Circle的类，包含一个私有成员变量radius和两个公有成员函数：构造函数和计算面积的函数getArea()。\\
-类提供了更强大的封装能力，可以通过访问修饰符（如private、public和protected）来控制成员的访问权限。此外，类还支持继承和多态等面向对象编程的特性。\\
-通过结构体和类，可以根据具体的需求定义自己的数据类型，并在程序中使用它们来组织和处理数据。自定义数据类型可以提高代码的可读性、可维护性和重用性。
-
-\section{变量类型}
-
-\section{变量作用域}
-一般来说有三个地方可以定义变量：\\
-在函数或一个代码块内部声明的变量，称为局部变量。\\
-在函数参数的定义中声明的变量，称为形式参数。\\
-在所有函数外部声明的变量，称为全局变量。\\
-作用域是程序的一个区域，变量的作用域可以分为以下几种：\\
-局部作用域：在函数内部声明的变量具有局部作用域，它们只能在函数内部访问。局部变量在函数每次被调用时被创建，在函数执行完后被销毁。\\
-全局作用域：在所有函数和代码块之外声明的变量具有全局作用域，它们可以被程序中的任何函数访问。全局变量在程序开始时被创建，在程序结束时被销毁。\\
-块作用域：在代码块内部声明的变量具有块作用域，它们只能在代码块内部访问。块作用域变量在代码块每次被执行时被创建，在代码块执行完后被销毁。\\
-类作用域：在类内部声明的变量具有类作用域，它们可以被类的所有成员函数访问。类作用域变量的生命周期与类的生命周期相同。
-
-\section{局部变量}
-在函数或一个代码块内部声明的变量，称为局部变量。它们只能被函数内部或者代码块内部的语句使用。下面的实例使用了局部变量：
-\begin{lstlisting}[language=C++]
-int sum(){
-	int a,b,sum; // 局部变量声明
-	a = 1,b = 2; // 实际初始化
-	sum = a + b;
-	cout<<"sum = "<<sum<<endl;
-	return 0;
-}
-\end{lstlisting}
-
-\section{全局变量}
-局部变量和全局变量的名称可以相同，但是在函数内，局部变量的值会覆盖全局变量的值。下面是一个实例：
-\begin{lstlisting}[language=C++]
-// globalVariable 全局变量
-int i = 3;
-int globalVariable(){
-	int i = 5;
-	cout<<"i = "<<i<<endl;
-	return 0;
-}
-\end{lstlisting}
-
-\section{块作用域}
-块作用域指的是在代码块内部声明的变量：
-\begin{lstlisting}[language=C++]
-// blockScope块作用域
-int blockScope(){
-	int i = 1;
-	{
-		int i = 2; // 块作用域变量
-		cout<<"i = "<<i<<endl;
-	}
-	cout<<"i = "<<i<<endl;
-	return 0;
-}
-\end{lstlisting}
-\section{代码介绍}
-\begin{lstlisting}[language=C++]
-#include <iostream>
-using namespace std;
-int main() {
-	cout<<"hello"<<endl;
-	return 0;
-}
-\end{lstlisting}
-C++头文件<iostream>\\
-using namespace std; 告诉编译器使用std命名空间。\\
-int main()是主函数，程序从这里开始执行。\\
-cout<<"Hello World"; 会在屏幕上显示消息 "Hello World"。\\
-下一行 return 0; 终止 main( )函数，并向调用进程返回值 0。\\
-在 C++ 中，分号是语句结束符。也就是说，每个语句必须以分号结束。它表明一个逻辑实体的结束。
 
 \section{标识符}
 
@@ -450,7 +397,7 @@ cout<<"Hello World"; 会在屏幕上显示消息 "Hello World"。\\
 
 \chapter{数组}
 
-\chapter{字符串的处理}
+
 
 \chapter{函数与递归}
 
@@ -656,7 +603,6 @@ int modifier(){
 \chapter{数组}
 
 \chapter{STL}
-\chapter{SLT}
 \section{vector向量}
 \subsection{stl\_vector.h}
 \begin{lstlisting}[language=C++]
