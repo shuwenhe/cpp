@@ -3,6 +3,7 @@
 \contentsline {section}{\numberline {1}iostream}{5}{section.0.1.1}%
 \contentsline {section}{\numberline {2}fstream}{5}{section.0.1.2}%
 \contentsline {section}{\numberline {3}bits/stdc++}{6}{section.0.1.3}%
+\contentsline {section}{\numberline {4}limits}{6}{section.0.1.4}%
 \contentsline {chapter}{\numberline {第二章\hspace {.3em}}variable变量}{7}{chapter.0.2}%
 \contentsline {section}{\numberline {1}局部变量}{7}{section.0.2.1}%
 \contentsline {section}{\numberline {2}全局变量}{7}{section.0.2.2}%
@@ -26,11 +27,12 @@
 \contentsline {section}{\numberline {2}算术运算符}{18}{section.0.7.2}%
 \contentsline {section}{\numberline {3}关系运算符}{19}{section.0.7.3}%
 \contentsline {section}{\numberline {4}逻辑运算符}{20}{section.0.7.4}%
-\contentsline {chapter}{\numberline {第八章\hspace {.3em}}STL}{23}{chapter.0.8}%
-\contentsline {section}{\numberline {1}vector向量}{23}{section.0.8.1}%
-\contentsline {subsection}{\numberline {1.1}stl\_vector.h}{23}{subsection.0.8.1.1}%
-\contentsline {subsection}{\numberline {1.2}size}{25}{subsection.0.8.1.2}%
-\contentsline {section}{\numberline {2}sort}{25}{section.0.8.2}%
+\contentsline {chapter}{\numberline {第八章\hspace {.3em}}stl}{23}{chapter.0.8}%
+\contentsline {section}{\numberline {1}stl\_queue.h}{23}{section.0.8.1}%
+\contentsline {subsection}{\numberline {1.1}priority\_queue}{23}{subsection.0.8.1.1}%
+\contentsline {section}{\numberline {2}stl\_vector.h}{23}{section.0.8.2}%
+\contentsline {subsection}{\numberline {2.1}size}{25}{subsection.0.8.2.1}%
+\contentsline {section}{\numberline {3}sort}{25}{section.0.8.3}%
 \contentsline {chapter}{\numberline {第九章\hspace {.3em}}注释}{26}{chapter.0.9}%
 \contentsline {section}{\numberline {1}单行多行注释}{26}{section.0.9.1}%
 \contentsline {chapter}{\numberline {第十章\hspace {.3em}}常量}{27}{chapter.0.10}%

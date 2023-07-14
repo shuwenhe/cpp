@@ -131,7 +131,34 @@ int main(){
 #include <bits/stdc++.h>
 \end{lstlisting}
 标准库头文件iostream、fstream、vector、algorithm
+\section{limits}
+\begin{lstlisting}[language=C++]
+#include <fstream>
+#include <limits>
+
+using namespace std;
+
+#define INF numeric_limits<int>::max()
+
+int main(){
+	ofstream fout("max.out");
+	fout<<INF;
+}
+\end{lstlisting}
 \chapter{variable变量}
+\section{Calculate a+b}
+\begin{lstlisting}[language=C++]
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	int a,b;
+	cin>>a>>b;
+	cout<<a+b<<endl;
+	return 0;
+}
+\end{lstlisting}
 \section{局部变量}
 局部变量:在函数内部声明的变量。它们只能被函数内部语句使用。
 \begin{lstlisting}[language=C++]
@@ -581,12 +608,12 @@ int logicalOperator(){
 }
 \end{lstlisting}
 
-\chapter{STL}
-\section{vector向量}
-\subsection{stl\_vector.h}
+\chapter{stl}
+\section{stl\_queue.h}
+\subsection{priority\_queue}
+\section{stl\_vector.h}
 \begin{lstlisting}[language=C++]
-C:\Program Files\CodeBlocks\MinGW\lib\gcc\x86_64-w64-mingw32\8.1.0
-\include\c++\bits\stl_vector.h
+\bits\stl_vector.h
 \end{lstlisting}
 \begin{lstlisting}[language=C++]
 #include <iostream>
