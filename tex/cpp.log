@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.13)  14 JUL 2023 10:20
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.13)  14 JUL 2023 14:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -954,13 +954,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [9
 
 ]
-Overfull \hbox (27.04213pt too wide) in paragraph at lines 266--338
+Overfull \hbox (27.04213pt too wide) in paragraph at lines 264--336
 \TU/SimSun(0)/m/n/12 篮 子 里 的 糖 数 量|   []$\OML/cmm/m/it/12 n$ \TU/SimSun(0)/m/n/
 12 块。|  此 时 篮 子 里 剩 余 的 糖 果 均 归 你 所 有 |— —|  这 些 糖 果 是|   []。| 
  []
 
 
-Overfull \hbox (54.75626pt too wide) in paragraph at lines 266--338
+Overfull \hbox (54.75626pt too wide) in paragraph at lines 264--336
 \TU/SimSun(0)/m/n/12 作 为 幼 儿 园 高 质 量 小 朋 友，|  你 希 望 让|   []的 糖 果 数 量  |（|   []！
  ）|
  []
@@ -1043,7 +1043,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 566--573
+Underfull \hbox (badness 10000) in paragraph at lines 564--571
 
  []
 
@@ -1078,7 +1078,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [23
 
 ]
-Overfull \hbox (99.50906pt too wide) in paragraph at lines 659--660
+Overfull \hbox (99.50906pt too wide) in paragraph at lines 657--658
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -1091,12 +1091,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [24]
-Overfull \hbox (20.30826pt too wide) in paragraph at lines 709--710
+Overfull \hbox (20.30826pt too wide) in paragraph at lines 707--708
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (56.30862pt too wide) in paragraph at lines 710--712
+Overfull \hbox (56.30862pt too wide) in paragraph at lines 708--710
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -1138,7 +1138,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [31]
-Overfull \hbox (13.10818pt too wide) in paragraph at lines 843--844
+Overfull \hbox (13.10818pt too wide) in paragraph at lines 841--842
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -1155,7 +1155,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32]
-Overfull \hbox (13.10818pt too wide) in paragraph at lines 894--895
+Overfull \hbox (13.10818pt too wide) in paragraph at lines 892--893
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -1193,7 +1193,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `cpp.out' has not changed.
-(rerunfilecheck)             Checksum: 3B38EC7455F141EA6D157C2D5B75F0DE;5844.
+(rerunfilecheck)             Checksum: 41810F6D75A097D20A7280AE4ECAF761;5844.
  ) 
 Here is how much of TeX's memory you used:
  20691 strings out of 411427
