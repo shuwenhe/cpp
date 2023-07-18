@@ -1,3 +1,5 @@
+// 莫比乌斯函数（Möbius Function）
+
 #include <iostream>
 
 using namespace std;
