@@ -356,7 +356,24 @@ int main(){
 }
 \end{lstlisting}
 
-\chapter{运算符}
+\chapter{operator}
+\section{sizeof-variable}
+用程序实现char,int,long,long long,float,double变量类型字节大小？\\
+解:
+\begin{lstlisting}[language=C++]
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	cout<<"sizeof(char) = "<<sizeof(char)<<" bytes"<<endl;
+	cout<<"sizeof(int) = "<<sizeof(int)<<" bytes"<<endl;
+	cout<<"sizeof(long) = "<<sizeof(long)<<" bytes"<<endl;
+	cout<<"sizeof(long long) = "<<sizeof(long long)<<" bytes"<<endl;
+	cout<<"sizeof(float) = "<<sizeof(float)<<" bytes"<<endl;
+	cout<<"sizeof(double) = "<<sizeof(double)<<" bytes"<<endl;
+}
+\end{lstlisting}
 \section{算术运算符}
 \subsection{\%mod}
 \begin{lstlisting}[language=C++]
