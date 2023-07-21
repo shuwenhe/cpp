@@ -96,6 +96,52 @@ Shuwen He
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{variable}
+\section{bit-byte}
+\begin{tabular}{|p{8cm}|p{8cm}|}
+\hline
+bit & byte\\
+\hline
+BitCoin比特币 & ByteDance字节跳动\\
+\hline
+1948年Claude Shannon论文"A Mathematical Theory of Communication"&1956年IBM360计算机设计,它是一个由8个二进制位组成的数据单位。\\
+\hline
+bit 是计算机中的最小数据单元，只能表示二进制的0或1 & byte 是由8个bit组成的数据单位\\
+ \hline
+计算机使用bit来表示和处理数字、字符、图像、音频、视频等各种类型的数据 &内存单元以byte为单位进行存储，每个内存单元都有一个唯一的地址 \\
+ \hline
+计算机网络传输数据时，数据也以bit为基本单位进行传输 & \\
+ \hline
+运算：计算机对数据进行处理时，也是以bit为基本单位进行运算 & \\
+ \hline
+计算机内部处理的数据是以bit为基本单位 &编程和操作计算机时常常使用byte为单位 \\
+ \hline
+ & 一个字节为什么可以表示 256 个不同的值,一个字节（byte）由8个二进制位（bit）组成。每个二进制位可以有两种状态，即0或1。因此，8个二进制位可以组合成$2^8$种不同的组合，即256种不同的状态。这是因为每个二进制位都有两种可能的取值（0或1），而8个二进制位共有$2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 = 2^8 = 256$ 种组合方式。一个字节的8个二进制位可以表示从0到255的256个不同的整数值\\
+ & 00000000 表示十进制的0,
+00000001 表示十进制的1,
+...
+11111110 表示十进制的254,
+11111111 表示十进制的255,
+这就是为什么一个字节可以表示256个不同的值。\\
+\hline
+\end{tabular}\\
+
+\section{ASCII}
+\begin{tabular}{|p{18cm}|}
+\hline
+ASCII(American Standard Code for Information Interchange)\\
+\hline
+8个二进制位（也就是1个字节）来表示一个字符，共包含128个字符，包括英文字母、数字、标点符号和一些控制字符\\
+\hline
+ASCII码中的字符范围从0到127，其中0到31是控制字符，用于控制设备的操作，如换行、回车、退格等。32到127是可显示的字符，包括大写字母、小写字母、数字和常用的标点符号。\\
+\hline
+ASCII码与字节的关系是，一个ASCII字符通常由一个字节（8个二进制位）来表示。字节是计算机中常用的数据单位，它由8个二进制位组成。而ASCII码中的每个字符正好可以用一个字节的8个二进制位来表示，这使得计算机可以很方便地处理和存储ASCII字符。\\
+\hline
+ASCII码最早于1960年由美国国家标准协会（American National Standards Institute，ANSI）开发，其目的是为了实现计算机之间的数据交换。\\
+\hline
+\end{tabular}\\
+
+
 \chapter{include}
 \section{bits/stdc++}
 \begin{lstlisting}[language=C++]
@@ -144,7 +190,6 @@ int main(){
 }
 \end{lstlisting}
 
-\chapter{variable}
 \section{A+B Problem}
 http://poj.org/problem?id=1000\\
 Description\\

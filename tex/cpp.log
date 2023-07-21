@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.13)  21 JUL 2023 13:53
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.13)  21 JUL 2023 14:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -908,23 +908,39 @@ LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
 33.
  [3]
-[4])
+Underfull \vbox (badness 5607) has occurred while \output is active []
+
+ [4])
 \tf@toc=\write4
 \openout4 = `cpp.toc'.
 
- [5]
+
+[5]
 第一章
-(C:\CTEX\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-(C:\CTEX\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-(C:\CTEX\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-) [6
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--128
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6
 
 ]
+Overfull \hbox (41.25272pt too wide) in paragraph at lines 130--143
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--143
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -934,11 +950,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
 第二章
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8
+(C:\CTEX\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(C:\CTEX\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(C:\CTEX\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+) [9
 
 ]
 
@@ -949,18 +979,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9]
+[10]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
 第三章
-[10
+[13
 
 ]
-Overfull \hbox (27.04213pt too wide) in paragraph at lines 265--337
+Overfull \hbox (27.04213pt too wide) in paragraph at lines 310--382
 \TU/SimSun(0)/m/n/12 篮 子 里 的 糖 数 量|   []$\OML/cmm/m/it/12 n$ \TU/SimSun(0)/m/n/
 12 块。|  此 时 篮 子 里 剩 余 的 糖 果 均 归 你 所 有 |— —|  这 些 糖 果 是|   []。| 
  []
 
 
-Overfull \hbox (54.75626pt too wide) in paragraph at lines 265--337
+Overfull \hbox (54.75626pt too wide) in paragraph at lines 310--382
 \TU/SimSun(0)/m/n/12 作 为 幼 儿 园 高 质 量 小 朋 友，|  你 希 望 让|   []的 糖 果 数 量  |（|   []！
  ）|
  []
@@ -973,37 +1021,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11]
+[14]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[12]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[13]
-第四章
-
-Overfull \hbox (34.7084pt too wide) in paragraph at lines 372--373
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[14
-
-]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1022,16 +1043,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16]
-第五章
+第四章
+
+Overfull \hbox (34.7084pt too wide) in paragraph at lines 417--418
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
 [17
 
 ]
-Overfull \hbox (56.30862pt too wide) in paragraph at lines 475--476
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19]
+第五章
+[20
+
+]
+Overfull \hbox (56.30862pt too wide) in paragraph at lines 520--521
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (16.3199pt too wide) in paragraph at lines 482--484
+Overfull \hbox (16.3199pt too wide) in paragraph at lines 527--529
 \TU/SimSun(0)/m/n/12 在 上 面 的 示 例 中，|  首 先 包 含 了 \TU/lmr/m/n/12 ‘<array>‘\TU/Sim
 Sun(0)/m/n/12 标 准 库 头 文 件。|  然 后，|  创 建 了 一 个 名 为 \TU/lmr/m/n/12 ‘arr‘\TU/SimSu
 n(0)/m/n/12 的 \TU/lmr/m/n/12 ‘std::array‘\TU/SimSun(0)/m/n/12 对
@@ -1045,17 +1093,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18]
+[21]
 第六章
-[19
+[22
 
 ]
 第七章
-[20
+[23
 
 ]
 第八章
-[21
+[24
 
 ]
 
@@ -1066,8 +1114,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 590--597
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 635--642
 
  []
 
@@ -1079,7 +1127,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23]
+[26]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1088,7 +1136,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24]
+[27]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1097,12 +1145,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25]
+[28]
 第九章
-[26
+[29
 
 ]
-Overfull \hbox (99.50906pt too wide) in paragraph at lines 683--684
+Overfull \hbox (99.50906pt too wide) in paragraph at lines 728--729
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -1114,13 +1162,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27]
-Overfull \hbox (20.30826pt too wide) in paragraph at lines 733--734
+[30]
+Overfull \hbox (20.30826pt too wide) in paragraph at lines 778--779
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (56.30862pt too wide) in paragraph at lines 734--736
+Overfull \hbox (56.30862pt too wide) in paragraph at lines 779--781
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -1132,69 +1180,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28]
+[31]
 第十章
-[29
-
-]
-第十一章
-[30
-
-]
-第十二章
-[31
-
-]
-第十三章
 [32
 
 ]
-第十四章
+第十一章
 [33
 
 ]
+第十二章
+[34
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+]
+第十三章
+[35
 
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+]
+第十四章
+[36
 
-[34]
-Overfull \hbox (13.10818pt too wide) in paragraph at lines 867--868
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Underfull \vbox (badness 1546) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[35]
-Overfull \hbox (13.10818pt too wide) in paragraph at lines 918--919
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[36]
-Underfull \vbox (badness 1546) has occurred while \output is active []
-
-
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1204,6 +1210,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [37]
+Overfull \hbox (13.10818pt too wide) in paragraph at lines 912--913
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 1546) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1212,12 +1226,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38] (cpp.aux)
+[38]
+Overfull \hbox (13.10818pt too wide) in paragraph at lines 963--964
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39]
+Underfull \vbox (badness 1546) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[40]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41] (cpp.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `cpp.out' has not changed.
-(rerunfilecheck)             Checksum: 76610AB59715E20F8862A7A6B8D84070;6047.
+(rerunfilecheck)             Checksum: 9E43890B7FE9ACA37498571DDEF404E9;6256.
  ) 
 Here is how much of TeX's memory you used:
  20669 strings out of 411427
@@ -1228,4 +1276,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  89i,12n,108p,1204b,1728s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on cpp.pdf (38 pages).
+Output written on cpp.pdf (41 pages).
