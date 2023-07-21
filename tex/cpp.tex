@@ -72,8 +72,8 @@
 %北京大学\\
 %ShuwenHe\\
 %何书文\\
-%1201220707@pku.edu.cn
-Richard He \& Ritchie He
+Shuwen He
+1201220707@pku.edu.cn
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -415,13 +415,56 @@ int main(){
 using namespace std;
 
 int main(){
-	int nums[3] = {1,2,3};
-	for(int i = 0; i < sizeof(nums)/sizeof(nums[0]);i++){
-		cout<<nums[i]<<endl;
+	int arr[] ={64, 34, 25, 12, 22, 11, 90};
+	int size = sizeof(arr)/sizeof(arr[0]);
+	for(int i = 0;i<size;i++){
+		cout<<arr[i]<<" ";
 	}
+	cout<<endl;
+
 	return 0;
 }
 \end{lstlisting}
+
+\section{array}
+在C++中，你可以使用`std::array`标准库容器来实现数组。`std::array`提供了一组固定大小的连续存储空间，并提供了许多与数组相关的函数和操作。以下是一个简单的示例：
+
+\begin{lstlisting}[language=C++]
+#include <iostream>
+#include <array>
+
+using namespace std;
+
+int main() {
+    // 创建一个包含5个整数的数组
+    array<int, 5> arr;
+    // 向数组中插入元素
+    arr[0] = 1;
+    arr[1] = 2;
+    arr[2] = 3;
+    arr[3] = 4;
+    arr[4] = 5;
+    // 获取数组大小
+    int size = arr.size();
+    cout << "Array size: " << size << endl;
+    // 遍历并打印数组元素
+    cout << "Array elements: ";
+    for (int i = 0; i < size; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+    // 使用迭代器遍历并打印数组元素
+    cout << "Array elements (using iterator): ";
+    for (array<int, 5>::iterator it = arr.begin(); it != arr.end(); ++it) {
+        cout << *it << " ";
+    }
+    cout << endl;
+    return 0;
+}
+\end{lstlisting}
+在上面的示例中，首先包含了`<array>`标准库头文件。然后，创建了一个名为`arr`的`std::array`对象，包含了5个整数元素。通过使用索引访问`arr`中的元素，可以对数组进行操作。示例中还演示了获取数组大小、遍历数组并打印元素的两种方式：使用下标和使用迭代器。
+使用`std::array`具有许多优点，包括安全性、大小固定、支持迭代器等。此外，`std::array`还提供了其他功能，如比较、排序等操作。你可以进一步了解`std::array`的详细用法和功能，以满足特定的需求。
+
 
 \chapter{vector}
 
