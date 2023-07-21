@@ -96,7 +96,7 @@ Richard He \& Ritchie He
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{include头文件}
+\chapter{include}
 \section{bits/stdc++}
 \begin{lstlisting}[language=C++]
 #include <bits/stdc++.h>
@@ -143,7 +143,8 @@ int main(){
 	fout<<INF;
 }
 \end{lstlisting}
-\chapter{variable变量}
+
+\chapter{variable}
 \section{A+B Problem}
 http://poj.org/problem?id=1000\\
 Description\\
@@ -206,7 +207,7 @@ int main(){
 }
 \end{lstlisting}
 
-\chapter{流程控制语句}
+\chapter{flow control}
 \section{for}
 \subsection{template模板}
 计算$1+2+3+\cdots+100 = ?$
@@ -406,7 +407,7 @@ int main(){
 }
 \end{lstlisting}
 
-\chapter{array数组}
+\chapter{array}
 \section{sizeof}
 \begin{lstlisting}[language=C++]
 #include <iostream>
@@ -422,64 +423,29 @@ int main(){
 }
 \end{lstlisting}
 
-\chapter{string字符串}
-\section{CSP-J-2019-01number数字游戏}
-【题目描述】\\
-小$K$同学向小$P$同学发送了一个长度为8的01字符串来玩数字游戏，小$P$同学想要知道字符串中究竟有多少个1。\\
-注意：01字符串为每一个字符是0或者1的字符串，如“101”（不含双引号）为一个长度为3的01字符串。\\
-【输入格式】\\
-输入文件名为number.in\\
-输入文件只有一行，一个长度为8的01字符串$s$。\\
-【输出格式】\\
-输出文件名为number.out\\
-输出文件只有一行，包含一个整数，即01字符串中字符1的个数。\\
-【输入输出样例1】\\
-\begin{tabular}{|c|c|}
-\hline
-number.in & number.out\\
-\hline
-00010100 & 2\\
-\hline
-\end{tabular}\\
-【输入输出样例2】\\
-\begin{tabular}{|c|c|}
-\hline
-number.in & number.out\\
-\hline
-11111111 & 8\\
-\hline
-\end{tabular}\\
-解:\\
-\includegraphics[width=0.5\textwidth]{number.png}
+\chapter{vector}
+
+\chapter{string}
+\section{01010000}
 \begin{lstlisting}[language=C++]
 #include <iostream>
-#include <fstream>
-#include <string>
 
 using namespace std;
 
 int main(){
-	ifstream fin("number.in");
-	ofstream fout("number.out");
-
-	string s;
-	fin>>s;
+	string str = "01010000";
 	int count = 0;
-
-	for(int i = 0; i < s.length();i++){
-		if(s[i] == '1'){
+	for(int i = 0;i < str.length();i++ ){
+		if(str[i] == '1'){
 			count++;
 		}
 	}
-	fout<<count;
-
-	fin.close();
-	fout.close();
+	cout<<count<<endl;
 	return 0;
 }
 \end{lstlisting}
 
-\chapter{Reference引用}
+\chapter{reference}
 \section{\& Reference引用}
 \begin{lstlisting}[language=C++]
 #include <iostream>
