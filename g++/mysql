@@ -1,1 +1,4 @@
 g++ main.cpp -o shuwen-service -lmysqlclient
+
+安装MySQL开发库
+sudo apt-get install libmysqlclient-dev
