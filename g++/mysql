@@ -1,1 +1,1 @@
-g++ user.cpp -o shuwen-service -lmysqlclient
+g++ main.cpp -o shuwen-service -lmysqlclient
